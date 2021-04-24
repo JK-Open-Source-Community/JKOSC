@@ -17,7 +17,7 @@ A community of developers run by the students of JK Institute of Applied Physics
 |[RSoC](https://www.redox-os.org/rsoc/)                                                                  |                                     |
 |[Season of KDE](https://season.kde.org/)                                                                |                                     |
 
-## Organisations 
+## Organizations you may like!
 
 ### [RISC-V](https://github.com/riscv)
 
