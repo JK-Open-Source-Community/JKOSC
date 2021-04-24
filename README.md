@@ -17,9 +17,15 @@ A community of developers run by the students of JK Institute of Applied Physics
 |[RSoC](https://www.redox-os.org/rsoc/)                                                                  |                                     |
 |[Season of KDE](https://season.kde.org/)                                                                |                                     |
 
+## Organisations 
 
+### [RISC-V](https://github.com/riscv)
 
+### [Circuit Verse](https://github.com/CircuitVerse)
 
+### [Processing Foundation](https://github.com/processing)
+
+### [Mozilla](https://github.com/mozilla)
 
 
 ## Resources
