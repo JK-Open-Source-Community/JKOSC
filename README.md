@@ -3,6 +3,8 @@
 # JKOSS - JK Open Source Society 
 A community of developers run by the students of JK Institute of Applied Physics and Technology.
 
+[Meet Our People!](people.md)
+
 ## Major Open Source Programs
 
 | Program                                                                                                | Description                         |
