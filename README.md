@@ -1,6 +1,6 @@
 ![allahabad_university_logo](allahabad_university_logo.png)
 
-# JKOSS - JK Open Source Community 
+# JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
 
 # Community Statement
