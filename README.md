@@ -1,7 +1,16 @@
 ![allahabad_university_logo](allahabad_university_logo.png)
 
 # JKOSS - JK Open Source Society 
-A community of developers run by the students of JK Institute of Applied Physics and Technology.
+A community of developers run by the students of JK Institute of Applied Physics and Technology. 
+
+# Community Statement
+We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background. We acknowledge that not everyone has the time, financial means, or capacity to actively participate, but we recognize and encourage the involvement of all kinds. We facilitate and foster access and empowerment. We are all learners.
+In practice:
+- We are not coding snobs. We do not assume knowledge or imply there are things that somebody should know.
+- We insist on actively engaging with requests for feedback regardless of their complexity.
+- We welcome newcomers and prioritize the education of others. We strive to approach all tasks with the enthusiasm of a newcomer. Because we believe that newcomers are just as valuable in this effort as experts.
+- We consistently make the effort to actively recognize and validate multiple types of contributions.
+- We are always willing to offer help or guidance.
 
 [Meet Our People!](people.md)
 
