@@ -2,6 +2,7 @@
 | User                                                                         | Organisation                                           |
 |------------------------------------------------------------------------------|--------------------------------------------------------|
 | [Aman Binjola](http://www.github.com/binjolaaman10)                          |                                                        |
+| [Harekrishna Rai](http://www.github.com/harekrishnarai)                      |        [HackON Community Volunteer](https://hackon.tech)|                                              |
 
 # 2018 - 2022 
 | User                                                                         | Organisation                                           |
