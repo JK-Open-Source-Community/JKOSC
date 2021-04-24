@@ -27,6 +27,8 @@ A community of developers run by the students of JK Institute of Applied Physics
 
 ### [Mozilla](https://github.com/mozilla)
 
+### [Django](https://github.com/django)
+
 
 ## Resources
 - https://guides.github.com/features/mastering-markdown/
