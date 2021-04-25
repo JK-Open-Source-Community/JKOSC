@@ -1,4 +1,4 @@
-![allahabad_university_logo](allahabad_university_logo.png)
+![JKOSC gif](VID-20210424-WA0018.mp4)
 
 # JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
