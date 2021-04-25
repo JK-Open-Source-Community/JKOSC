@@ -8,7 +8,7 @@
 | User                                                                         | Organisation                                           |
 |------------------------------------------------------------------------------|--------------------------------------------------------|
 | [TwoTicks](http://www.github.com/two-ticks)                                  | [Processing Foundation](http://www.github.com/processing) , [Circuit Verse](http://www.github.com/CircuitVerse)|
-| [Tirupati Raman Mishra](http://www.github.com/trmofsln)
+| [Tirupati Raman Mishra](http://www.github.com/trmofsln)                      |                                                         |
 | [ayushagarwal210](http://www.github.com/ayushagarwal210)                     |                                                         |
 | [AmanVerma](http://www.github.com/AMsteel) 
 |  [yashpra2626](http://www.github.com/yashpra2626)                                                             |
