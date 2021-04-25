@@ -1,4 +1,4 @@
-![JKOSC gif](VID-20210424-WA0018.gif)
+![JKOSC gif](intro_logo.gif)
 
 # JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
