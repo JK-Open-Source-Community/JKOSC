@@ -32,6 +32,7 @@ In practice:
 
 ### [RISC-V](https://github.com/riscv)
 RISC-V (pronounced “risk-five”) is a free and open ISA enabling a new era of processor innovation through open standard collaboration. Founded in 2015, the RISC-V Foundation comprises more than 200 members building the first open, collaborative community of software and hardware innovators powering a new era of processor innovation. Born in academia and research, RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation.
+#### Uses:  C, Python, Makefile, Assembly, TeX
 
 ### [Circuit Verse](https://github.com/CircuitVerse)
 CircuitVerse is a product developed by students at IIIT-Bangalore. It aims to provide a platform where circuits can be designed and simulated using a graphical user interface. While users can design complete CPU implementations within the simulator, the software is designed primarily for educational use. 
