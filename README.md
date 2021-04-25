@@ -31,14 +31,23 @@ In practice:
 ## Organizations you may like!
 
 ### [RISC-V](https://github.com/riscv)
+RISC-V (pronounced “risk-five”) is a free and open ISA enabling a new era of processor innovation through open standard collaboration. Founded in 2015, the RISC-V Foundation comprises more than 200 members building the first open, collaborative community of software and hardware innovators powering a new era of processor innovation. Born in academia and research, RISC-V ISA delivers a new level of free, extensible software and hardware freedom on architecture, paving the way for the next 50 years of computing design and innovation.
 
 ### [Circuit Verse](https://github.com/CircuitVerse)
+CircuitVerse is a product developed by students at IIIT-Bangalore. It aims to provide a platform where circuits can be designed and simulated using a graphical user interface. While users can design complete CPU implementations within the simulator, the software is designed primarily for educational use. 
+#### Uses: JavaScript, HTML, Ruby, CSS, SCSS, Dockerfile
 
 ### [Processing Foundation](https://github.com/processing)
+Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology.
+#### Uses: JavaScript, Python, Java, HTML, CSS 
 
 ### [Mozilla](https://github.com/mozilla)
+Mozilla (stylized as moz://a) is a free software community founded in 1998 by members of Netscape. The Mozilla community uses, develops, spreads and supports Mozilla products, thereby promoting exclusively free software and open standards, with only minor exceptions.
+#### Uses:  JavaScript, Python, HTML, CSS, Rust
 
 ### [Django](https://github.com/django)
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+#### Uses:  Python, JavaScript, Makefile, PostScript
 
 ## Anatomy of Open Source Projects 
 Every open source organization is different, you might find the vocabulary, norms, and communication styles to be completely different..
