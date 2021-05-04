@@ -12,7 +12,7 @@
 | [ayushagarwal210](http://www.github.com/ayushagarwal210)                     |                                                         |
 | [AmanVerma](http://www.github.com/AMsteel) 
 |  [yashpra2626](http://www.github.com/yashpra2626)                                                             |
-<!--|                                                                              |                                                         |
-|                                                                              |                                                         |
+<!--|                                                                           |                                                         |
+|  [ShashwatSaxena](http://www.github.com/mshashwat)                                                                            |                                                         |
 |                                                                              |                                                         |
 |                                                                              |                                                         |-->
