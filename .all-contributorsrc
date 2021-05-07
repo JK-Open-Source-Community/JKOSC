@@ -15,6 +15,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "trmofsln",
+      "name": "Tirupati Raman Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53634176?v=4",
+      "profile": "https://github.com/trmofsln",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
