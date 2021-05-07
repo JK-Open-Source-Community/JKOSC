@@ -96,6 +96,9 @@ Once you have completed your work on this issue, submit a pull request (PR) agai
 
 If you discover a bug or have an idea for a new feature you'd like to add, begin by submitting an issue. Please do not simply submit a pull request containing the fix or new feature without making an issue first, we will probably not be able to accept it. Once you have gotten some feedback on the issue and a go ahead to address it, you can follow the process above to contribute the fix or feature.
 
+## Contributors
+We recognize all types of contributions. This project follows the all-contributors specification. Instructions to add yourself or add contribution emojis to your name are here. You can also post an issue or comment with the text: @all-contributors please add @YOUR-USERNAME for THING(S) and our nice bot will add you.
+
 ## Resources
 - https://guides.github.com/features/mastering-markdown/
 - https://guides.github.com/introduction/git-handbook/
