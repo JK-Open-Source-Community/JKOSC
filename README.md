@@ -1,4 +1,7 @@
 ![JKOSC gif](intro_logo.gif)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
@@ -99,6 +102,19 @@ If you discover a bug or have an idea for a new feature you'd like to add, begin
 ## Contributors
 We recognize all types of contributions. This project follows the all-contributors specification. Instructions to add yourself or add contribution emojis to your name are here. You can also post an issue or comment with the text: @all-contributors please add @YOUR-USERNAME for THING(S) and our nice bot will add you.
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://jkinstitute.ac.in/team/"><img src="https://avatars.githubusercontent.com/u/63994966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hare Krishna Rai</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Aharekrishnarai" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=harekrishnarai" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=harekrishnarai" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 ## Resources
 - https://guides.github.com/features/mastering-markdown/
 - https://guides.github.com/introduction/git-handbook/
