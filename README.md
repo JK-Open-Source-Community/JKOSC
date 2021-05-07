@@ -1,6 +1,6 @@
 ![JKOSC gif](intro_logo.gif)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # JKOSC - JK Open Source Community 
@@ -109,6 +109,7 @@ We recognize all types of contributions. This project follows the [all-contribut
   <tr>
     <td align="center"><a href="https://jkinstitute.ac.in/team/"><img src="https://avatars.githubusercontent.com/u/63994966?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hare Krishna Rai</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Aharekrishnarai" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=harekrishnarai" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=harekrishnarai" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/trmofsln"><img src="https://avatars.githubusercontent.com/u/53634176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tirupati Raman Mishra</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Atrmofsln" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=trmofsln" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=trmofsln" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/two-ticks"><img src="https://avatars.githubusercontent.com/u/68433541?v=4?s=100" width="100px;" alt=""/><br /><sub><b>TwoTicks</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=two-ticks" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=two-ticks" title="Documentation">📖</a></td>
   </tr>
 </table>
 
