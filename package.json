@@ -2,7 +2,7 @@
   "name": "jkosc-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trmofsln.github.io/Web-JKOSC",
+  "homepage": "https://JK-Open-Source-Community.io/JKOSC",
   
   "dependencies": {
     "@material-ui/core": "^4.11.4",
