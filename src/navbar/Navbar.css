@@ -1,0 +1,77 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+
+.Navbar_body > li > img {
+  margin: 0;
+  padding: 0;
+  width: 45vh;
+  height: 10vh;
+}
+
+.Navbar_body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 0.6;
+}
+
+.Navbar_body > li {
+  list-style-type: none;
+}
+
+.Navbar_content {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.Navbar_content > a {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  padding: 6px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.Navbar_content > a > .MuiSvgIcon-root {
+  color: rgb(88, 87, 87);
+  margin-right: 6px;
+}
+
+.Navbar_content :hover {
+  font-size: medium;
+  background-color: black;
+  color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+}
+
+.search {
+  display: flex;
+  flex: 0.4;
+  align-items: center;
+}
+
+.search > input {
+  /* border: none; */
+  outline: none;
+  border: 2px solid black;
+  width: 30vw;
+  height: 2vw;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: larger;
+  padding: 6px;
+  justify-content: center;
+}
+
+.search > input:hover {
+  border: 1px solid black;
+}
