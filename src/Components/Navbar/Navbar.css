@@ -10,13 +10,13 @@
 }
 
 .navheader::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .navheader {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
+  display: none;
+}
+
+.navheader {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 .navheader__icons {
   display: flex;
@@ -59,9 +59,30 @@
 }
 
 .navheader__icon:hover > .MuiSvgIcon-root {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .navheader__icon:hover > p {
-    font-size: smaller;
+  font-size: smaller;
+  border-bottom: 3px solid white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search > input {
+  outline: none;
+  width: 20vw;
+  height: 4vh;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: larger;
+  padding: 6px;
+  justify-content: center;
+}
+
+.search > input:hover {
+  border: 3px solid white;
 }
