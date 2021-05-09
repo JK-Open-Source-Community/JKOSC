@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, HashRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
 import HomePage from './pages/homePage/HomePage'
 import CoursePage from './pages/coursePage/CoursePage'
