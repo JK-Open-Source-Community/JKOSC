@@ -36,6 +36,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "ayushagarwal210",
+      "name": "Ayush Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63542407?v=4",
+      "profile": "https://github.com/ayushagarwal210",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
