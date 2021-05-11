@@ -11,7 +11,7 @@ const AuthPage = () => {
         backgroundColor: `#f3eff5`,
       }}
     >
-      <h1>SignIn/SignOut</h1>
+      <h1>JK Alumni</h1>
     </div>
   );
 };
