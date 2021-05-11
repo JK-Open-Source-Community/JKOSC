@@ -16,6 +16,7 @@ In practice:
 
 [Meet Our People!](people.md)
 
+<!-- TODO : transfer to table of events in correct format
 # Open Source Internships
 
 | Name                                    | Stipend | Timeline            | Start Date                         | End Date                     |
@@ -91,6 +92,8 @@ In practice:
 | [Delta Winter of Code](https://dwoc.io/) (DWoC) | Certificates to all and Swag rewards| [timeline](https://dwoc.io/)|
 | [DevScript Winter of Code](https://devscript.tech/woc/) (DWoC) | Certificates, SWAGs, Subscriptions, Internship Opportunity| [timeline](https://devscript.tech/woc/)|
 
+-->
+
 
 
 ## Major Open Source Programs
@@ -106,6 +109,8 @@ In practice:
 |[FOSSASIA Codeheat](https://codeheat.org/)                                                              |                                     |
 |[RSoC](https://www.redox-os.org/rsoc/)                                                                  |                                     |
 |[Season of KDE](https://season.kde.org/)                                                                |                                     |
+|[Julia Summer of Code](https://julialang.org/jsoc)                                                      |                                     |
+|[Girlscript Summer of Code](https://gssoc.girlscript.tech/)                                             |                                     |
 
 ## Organizations you may like!
 
