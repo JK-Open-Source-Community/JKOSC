@@ -16,7 +16,7 @@ In practice:
 
 [Meet Our People!](people.md)
 
-<!-- TODO : table of events in correct format>
+<!-- TODO : table of events in correct format -->
 
 ## Major Open Source Programs
 
