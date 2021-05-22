@@ -1,0 +1,47 @@
+.bloom{
+    text-align: center;
+  background: white;
+  min-height: 1000vh;
+}
+
+
+.banner3  {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    /* background: url("../../assets/back31.jpg"); */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('../../assets/back35.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clip-path: circle(250vh at 35% -150vh); */
+  }
+
+
+  .bloom-jkoscLogo{
+      margin-top: -2%;
+      width: 22.5vw;
+      justify-self: center;
+  }
+  
+  
+  .bloom-text{
+      display: inline-grid;
+      color: #d6d6d6;
+      margin-top: -5%;
+  }
+
+  .bloom-heading{
+      font-size: 60px;
+      font-weight: 600;
+  }
+  
+  .bloom-para{
+      font-size:30px;
+      font-weight: 500;
+  }

@@ -1,77 +1,72 @@
-import React from 'react'
-import HomeIcon from '@material-ui/icons/Home'
-import LocalLibraryIcon from '@material-ui/icons/LocalLibrary'
-import InfoIcon from '@material-ui/icons/Info'
-import AssignmentIndIcon from '@material-ui/icons/AssignmentInd'
-import SurgeLogo from '../../assets/aulogo.png'
-import './Navbar.css'
+import React, { useState, useEffect } from "react";
+import imagered from "../../assets/favicon.png";
+import imageblack from "../../assets/jkosc-logo-1.png";
 import { Link } from 'react-router-dom'
-import { Button, Menu, MenuItem } from '@material-ui/core'
+import './Navbar.css';
 
 function Navbar() {
-  const [anchorEl, setAnchorEl] = React.useState(null)
+  const [navbar, setNavbar] = useState(false);
+  const [navblack, setNavblack] = useState(false);
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget)
+  const changeNavColor = () => {
+    if (window.scrollY >= 10 * (window.innerHeight / 100)) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  const changeNavBlack = () => {
+    if (window.scrollY >= 120 * (window.innerHeight / 100)) {
+      setNavblack(true);
+    } else {
+      setNavblack(false);
+    }
   }
 
-  const handleClose = () => {
-    setAnchorEl(null)
-  }
+  window.addEventListener("scroll", changeNavColor);
+  window.addEventListener("scroll", changeNavBlack);
+
   return (
-    <div>
-      <div className="navheader">
-        <div className="navheader__icons">
-          <Link to="/" className="navheader__icon">
-            <HomeIcon />
-            <p>Home</p>
-          </Link>
-          <Link to="/courses" className="navheader__icon">
-            <LocalLibraryIcon />
-            <p
-              aria-controls="simple-menu"
-              aria-haspopup="true"
-              onClick={handleClick}
-            >
-              Incept
-            </p>
-            <Menu
-              id="simple-menu"
-              anchorEl={anchorEl}
-              keepMounted
-              open={Boolean(anchorEl)}
-              onClose={handleClose}
-            >
-              <Link to="/courses/#syllabus">
-                <MenuItem onClick={handleClose}>Syllabus</MenuItem>
+      <div className="navbar">
+        <div className={navbar ? (navblack ? "header black" : "header sticky" ) : "header"}>
+        {/* <div className={navbar ? "header sticky" : "header"}> */}
+        {/* <div className="header" > */}
+          <a className="logo">
+            {navblack ? 
+            <img className="image" src={imageblack}  /> :
+            <img className="image" src={imagered}  /> }
+          </a>
+          <ul>
+            <li>
+            <Link to="/">
+              <a>Home</a>
               </Link>
-              <MenuItem onClick={handleClose}>Tutorial</MenuItem>
-              <MenuItem onClick={handleClose}>Projects</MenuItem>
-              <MenuItem onClick={handleClose}>Gate Resourses</MenuItem>
-            </Menu>
-          </Link>
+            </li>
+            <li>
+            <Link to="/incept" >
+              <a>Incept</a>
+              </Link>
+            </li>
+            <li>
+            <Link to="/bloom" >
+              <a>Bloom Up</a>
+              </Link>
+            </li>
+            <li>
+            <Link to="/about" >
+              <a>About Us</a>
+              </Link>
+            </li>
+            <li>
+            <Link to="/alumni" >
+              <a>Our Alumni</a>
+              </Link>
+            </li>
+          </ul>
         </div>
-        <img src={SurgeLogo} alt="Surge Logo"></img>
-        <div className="navheader__icons">
-          <Link to="/about" className="navheader__icon">
-            <InfoIcon />
-            <p>Bloom Up</p>
-          </Link>
-          <Link to="/auth" className="navheader__icon">
-            <AssignmentIndIcon />
-            <p>Alumni</p>
-          </Link>
         </div>
-        <div className="search">
-          <input type="text" placeholder="Search" />
-
-          <Button variant="contained" color="primary">
-            Search
-          </Button>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default Navbar
+        );
+    }
+    
+    export default Navbar;

@@ -1,19 +1,33 @@
 import React from "react";
+import "./HomePage.css";
 
-const HomePage = () => {
+
+function HomePage() {
+
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: `center`,
-        alignItems: `center`,
-        height: `90vh`,
-        backgroundColor: `#f3eff5`,
-      }}
-    >
-      <h1>Home Page</h1>
+    <div className="home">
+      
+      <div className="banner"></div>
+        <div class="wrapper">
+          <div class="static-txt">We are </div>
+          <ul class="dynamic-txts">
+            <li>
+              <span>JK Open Source Society</span>
+            </li>
+            <li>
+              <span>Community of developers</span>
+            </li>
+            <li>
+              <span>run by students of</span>
+            </li>
+            <li>
+              <span>JK Institute, Allahabad University</span>
+            </li>
+          </ul>
+        </div>
+      
     </div>
-  ); 
-};
+  );
+}
 
 export default HomePage;
