@@ -19,7 +19,7 @@ function AboutPage() {
         </div>
         <BannerBottom />
       </div>
-      <h1> Know more about our developer community</h1>
+      <h1>Know more about our developer community</h1>
     </div>
   );
 }
