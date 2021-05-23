@@ -1,0 +1,26 @@
+.alumni{
+    text-align: center;
+  background: white;
+  min-height: 1000vh;
+}
+
+
+.banner5  {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    /* background: url("../back3.jpg"); */
+    background: url('../../assets/back5.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clip-path: circle(250vh at 35% -150vh); */
+  }
+  
+  
+  
