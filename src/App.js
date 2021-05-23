@@ -1,20 +1,23 @@
-import React from 'react'
+import React from 'react';
+import "./App.css";
 import Navbar from './Components/Navbar/Navbar'
 import { BrowserRouter, HashRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
-import HomePage from './pages/homePage/HomePage'
-import CoursePage from './pages/coursePage/CoursePage'
-import AboutPage from './pages/aboutPage/AboutPage'
-import AuthPage from './pages/authPage/AuthPage'
+import HomePage from './pages/homePage/HomePage';
+import InceptPage  from './pages/inceptPage/Incept';
+import BloomUpPage from './pages/bloomUpPage/BloomUp';
+import AboutPage from './pages/aboutPage/AboutPage';
+import AlumniPage from './pages/ourAlumni/Alumni';
 
 function App() {
   let routes
   routes = (
     <Switch>
       <Route path="/" exact component={HomePage} />
-      <Route path="/courses" exact component={CoursePage} />
+      <Route path="/incept" exact component={InceptPage} />
+      <Route path="/bloom" exact component={BloomUpPage} />
       <Route path="/about" exact component={AboutPage} />
-      <Route path="/auth" exact component={AuthPage} />
+      <Route path="/alumni" exact component={AlumniPage} />
     </Switch>
   )
   return (
