@@ -38,3 +38,5 @@ This would be our structure and our current objective for this web page.
     ├── alumni
     ├── LICENSE
     └── README.md
+
+![image](https://user-images.githubusercontent.com/53634176/119560432-9325d500-bdc1-11eb-8407-55a64a2af409.png)
