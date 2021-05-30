@@ -62,14 +62,45 @@
     text-align: center;
     margin: 3px;
   }
+
+.stream-button{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.stream-select{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.streamButton-selected{
+    /* background-color: #8eccc0 !important; */
+    background-color: #3f51b5 !important;
+    color: white !important;
+    border: solid black 10px !important;
+    border-radius: 90px !important;
+    transition: 0.5s !important;
+}
+
+.streamButton-deselected{
+    background-color: gainsboro !important;
+    color: #262623 !important;
+    border: solid black 10px !important;
+    border-radius: 20px !important;
+    transition: 0.5s !important;
+}
   
 
-.MuiButtonGroup-root{
+.MuiButtonGroup-grouped, .MuiButtonGroup-root{
     display: flex !important;
     justify-content: center;
-    padding-bottom: 2% !important;
+    padding-bottom: 9px !important;
+    min-width:120px !important;
 }
 
 .MuiButtonGroup-groupedContained{
-    width: 10% !important;
+    /* width: 10% !important; */
+    border: none !important;
 }

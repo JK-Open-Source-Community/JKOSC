@@ -6,6 +6,7 @@ import Tabs from '@material-ui/core/Tabs'
 import Tab from '@material-ui/core/Tab'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
+import Syllabus from '../../../pages/inceptPage/Syllabus'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props
@@ -48,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-export default function ScrollableTabsButtonAuto() {
+export default function ScrollableTabsButtonAuto({userSyllabus}) {
   const classes = useStyles()
   const [value, setValue] = React.useState(0)
 
@@ -58,6 +59,7 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <div className={classes.root}>
+      
       <AppBar position="static" color="default">
         <Tabs
           value={value}
@@ -79,28 +81,28 @@ export default function ScrollableTabsButtonAuto() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        <Syllabus semester={1} userSyllabus={userSyllabus}/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+      <Syllabus semester={2} userSyllabus={userSyllabus} />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+      <Syllabus semester={3} userSyllabus={userSyllabus}/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+      <Syllabus semester={4} userSyllabus={userSyllabus}/>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+      <Syllabus semester={5} userSyllabus={userSyllabus}/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+      <Syllabus semester={6} userSyllabus={userSyllabus}/>
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+      <Syllabus semester={7} userSyllabus={userSyllabus} />
       </TabPanel>
       <TabPanel value={value} index={7}>
-        Item Eight
+      <Syllabus semester={8} userSyllabus={userSyllabus}/>
       </TabPanel>
     </div>
   )

@@ -1,0 +1,20 @@
+.semester-content{
+    padding-top:5px;
+    padding-bottom: 5px;
+    width:80%;
+}
+
+.papers-content{
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.units-content{
+    padding-top:0.7%;
+    text-align: left;
+}
+
+.reference-heading{
+    padding-top:1%;
+    text-align: left;
+}
