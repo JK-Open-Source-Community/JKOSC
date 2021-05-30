@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import BannerBottom from "../../Components/banner-bottom/BannerBottom";
 import "./Incept.css";
 import JkoscLogo from "../../assets/jkosc-logo.png";
 import ScrollableTabsButtonAuto from "../../Components/Navbar/StyledComponents/ScrollableTabsButtonAuto";
 import { Button,ButtonGroup } from "@material-ui/core";
 
-function Incept() {
+
+const Incept = () => {
+
+  const [userSyllabus,setUserSyllabus] = useState(true);
+
   return (
     <div className="incept">
       <div className="banner2">
@@ -25,12 +29,17 @@ function Incept() {
       <div className="incept-container">
         <div className="syllabus-head" id="syllabus">
           Your B.tech Drive Path
+          {userSyllabus && <div> Computer Science & Engineering </div>}
+          {!userSyllabus && <div> Electronic & Communication Engineering </div>}
         </div>
-        <ButtonGroup variant="contained" color="primary">
-          <Button>CSE</Button>
-          <Button>ECE</Button>
+        <ButtonGroup variant="contained" color="primary" >
+        
+          <Button onClick={()=>setUserSyllabus(true)} className={userSyllabus ? "streamButton-selected" : "streamButton-deselected"}>CSE</Button>
+          <Button onClick={()=>setUserSyllabus(false)} className={userSyllabus ? "streamButton-deselected" : "streamButton-selected"} >ECE</Button>
+          
         </ButtonGroup>
-        <ScrollableTabsButtonAuto />
+        
+        <ScrollableTabsButtonAuto userSyllabus={userSyllabus}/>
       </div>
     </div>
   );
