@@ -14,32 +14,38 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Linear Algebra",
-              unit_description:
+              unit_description: [
                 "Determinants, Matrices, Elementary row and column operations, Rank of matrix, Inverse of matrix, Eigen values and eigen vectors,, special types of matrices such as symmetric, skew asymmetric, Hermitian and skew hermitian matrices, Linear systems of algebraic equations, Consistency, Gauss elimination method to solve system of linear equations, Homogeneous and inhomogeneous systems of equations,, Cayley-Hamilton theorem,",
+                "vhvhvkv",
+              ],
             },
             {
               unit: 2,
               unit_title: "Calculus",
-              unit_description:
+              unit_description: [
                 "Limit, Continuity & differentiability of functions of one variable, Mean-value Theorems, Rolle’s Theorem, Leibnitz formula for nth derivatives of products of functions, Taylor and Maclaurin Theorems, Maxima, Minima, Theorems of integral calculus, Evaluation of definite & improper integrals, Functions of several variables: Partial differentiation, Change of variables in partial differentiation.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Vector Differential Calculus",
-              unit_description:
+              unit_description: [
                 "Scalar and vector fields, Directional derivatives, Differentials of functions of several variables, Change of variables, Gradient of a scalar function, Conservative fields and potential functions, Divergence and curl of vector fields, Chain rules, Applications to cylindrical and Spherical polar coordinates,",
+              ],
             },
             {
               unit: 4,
               unit_title: "Vector Integral Calculus",
-              unit_description:
+              unit_description: [
                 "Multiple integrals, Evaluation of double and triple integrals, Line, Surface & Volume integrals, Volumes and Surface Areas of Solids using multiple integrals, Green’s, Gauss’s and Stoke’s Theorem and application.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Fourier Series",
-              unit_description:
+              unit_description: [
                 "Introduction to Fourier series, trigonometric and exponential forms, Euler formulae for Fourier coefficients, Functions having period 2π and arbitrary period, Even & odd functions, Half range functions, Sine and cosine Fourier series, Fourier integrals,",
+              ],
             },
           ],
           references: [
@@ -61,33 +67,38 @@ const Syllabus = (props) => {
               unit: 1,
               unit_title:
                 "Ordinary Linear Differential Equations of first order and first degree",
-              unit_description:
+              unit_description: [
                 "Ordinary differential equations of first order, Separable, exact & linear equations, Existence and uniqueness theorems (Statement only), Higher order linear equations, Workinsons Method of variation of parameters for particular solutions, Euler’s and Cauchy’s equations, Systems of first order equations with constant coefficients",
+              ],
             },
             {
               unit: 2,
               unit_title:
                 "Ordinary Linear Differential Equations (LDE) of higher order",
-              unit_description:
+              unit_description: [
                 "Definition and general form of LDE, the operator D, complete solution of LDE as a sum of complimentary function (CF) and particular integral (PI), inverse operator rule for finding CF & PI, method of variation of parameter to find PI.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Complex Algebra",
-              unit_description:
+              unit_description: [
                 "Complex numbers, Complex plane, Roots of complex numbers, Complex functions and mappings, analytical functions, Cauchy-Riemann equations, elementary complex functions such as exponential , logarithmic, trigonometric, hyperbolic functions and Inverse functions, Harmonic functions,",
+              ],
             },
             {
               unit: 4,
               unit_title: "Complex Integration",
-              unit_description:
+              unit_description: [
                 "Complex integration, Complex integrals, Contours, the Cauchy Theorem and Contour integrals, The Cauchy integral formulas, Some properties of analytical functions, Complex integration: Line integral, Cauchy’s integral theorem,",
+              ],
             },
             {
               unit: 5,
               unit_title: "Contour Integration",
-              unit_description:
+              unit_description: [
                 "Residues and contour integration, Complex power series and Taylor Series, Laurent series and the classification of Singularities, residues and the residues theorem, Evaluation of real integrals by means of residues evaluation of real integrals using integration around unit circle, around the semi circle, integrating contours having poles, on the real axis, Conformal mapping and applications",
+              ],
             },
           ],
           references: [
@@ -105,32 +116,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Optics and Lasers",
-              unit_description:
+              unit_description: [
                 "Interference of light: Interference in thin films, Newton’s rings Diffraction: Fresnel and Fraunhofer diffraction, Plane diffraction grating, Measurement of wave length, Dispersive power of grating, Resolving power, Rayleigh criterion",
+              ],
             },
             {
               unit: 2,
               unit_title: "Lasers",
-              unit_description:
+              unit_description: [
                 "Basic principles of laser, spontaneous emission- stimulated emission-population inversion, spatial and temporal coherence- coherence length, optical amplification, laser rate equations, gain coefficient, threshold condition",
+              ],
             },
             {
               unit: 3,
               unit_title: "Introduction to quantum theory",
-              unit_description:
+              unit_description: [
                 "Wave particle duality, matter waves, group & phase velocity, uncertainty principle, wave packets, Schrodinger equation",
+              ],
             },
             {
               unit: 4,
               unit_title: "Solid State Physics",
-              unit_description:
+              unit_description: [
                 "Bonding in solids, Elastic properties of solids, Defects in crystals, Lattice vibrations and thermal properties of solids, Free electron theory, Band theory of solids, Metals, Semiconductors and insulators, Electrical conductivity of simple metals (Free Electron Theory)",
+              ],
             },
             {
               unit: 5,
               unit_title: "Nano Physics",
-              unit_description:
+              unit_description: [
                 "Introduction to nanophysics, energy levels, density of states, quantum wire, single electron tunneling, quantum dot, nano-transistors and FET, NEMS and sensors.",
+              ],
             },
           ],
           references: [
@@ -193,32 +209,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to hardware",
-              unit_description:
+              unit_description: [
                 "Brief introduction of binary numbers,, Functional block diagram of a computer, Stored program machine, Generation of computers, CPU, I/O, Secondary storage, Memory and its classifications.",
+              ],
             },
             {
               unit: 2,
               unit_title: "Introduction to software:",
-              unit_description:
+              unit_description: [
                 "Generations of programming languages, introduction to applications and system software, File storage, DOS and windows environment.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Algorithms",
-              unit_description:
+              unit_description: [
                 "Flow charts, Structure and properties of algorithm, Algorithms for g.c.d., Factorial, Fibonacci series, Prime number generation. Linear and binary search, Sorting and bubble sort etc.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Basics of C Language",
-              unit_description:
+              unit_description: [
                 "C pre-processor, Variables, Operators, Expressions, Control flow, Data types, Arrays, Pointers, Storage classes, Scope and initialization, Input/output, String processing,",
+              ],
             },
             {
               unit: 5,
               unit_title: "Pointer Based Programming",
-              unit_description:
+              unit_description: [
                 "Pointers, Dynamic data structures, Structures and unions, File handling,",
+              ],
             },
           ],
           references: [
@@ -243,20 +264,23 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to Communication",
-              unit_description:
+              unit_description: [
                 "Importance of communication, Communication in primitive societies, Ways of communication: One way & two way, Principles of communication: Clarity, Completeness, Conciseness, Consideration, Courtesy, Correctness, Coherency, Level of communication- inter and intra personal, group to person, group to group, Methods of effective oral, Written and non-verbal communication, Process of communication (flow): Downward, Upward and horizontal communication, Official Hierarchy",
+              ],
             },
             {
               unit: 2,
               unit_title: "Speaking & Reading Skills:",
-              unit_description:
+              unit_description: [
                 "Verbal, non-verbal & Visual Communication, Elementary phonetics: speech sounds, Consonant & Vowel Sounds, Phonetic symbols, Horizons-tone, frequency, rate, volume, depth, extempore speech, Rate of speech",
+              ],
             },
             {
               unit: 3,
               unit_title: "Writing Skills & Business correspondence:",
-              unit_description:
+              unit_description: [
                 "Comprehension of ideas in a passage, Expansion of an idea for a particular purpose, Change of words into different parts of speech, Idioms, Antonyms and synonyms, Drafting Business letters, CV & Resume, Application for jobs, Power-point presentation, Using Microsoft Office",
+              ],
             },
           ],
           references: [
@@ -283,32 +307,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Laplace Transform",
-              unit_description:
-                "Definitions & existence conditions, Laplace transforms of some useful functions, Inverse Laplace Transform, Operational Properties of the Laplace Transform, Linearity, scaling, time shifting, shifting in s-domain, time differentiation and time integration, frequency differentiation & integration, convolutional property, Inversion Integral, Transforms of Periodic functions, Use of Laplace transforms in the solution of differential equations and analysis of electrical circuits.",
+              unit_description: [
+                `Definitions & existence conditions, Laplace transforms of some useful functions, Inverse Laplace Transform, Operational Properties of the Laplace Transform, Linearity, scaling, time shifting, shifting in s-domain, time differentiation and time integration, frequency differentiation & integration, convolutional property, Inversion Integral, Transforms of Periodic functions, Use of Laplace transforms in the solution of differential equations and analysis of electrical circuits.`,
+              ],
             },
             {
               unit: 2,
               unit_title: "Fourier Transform",
-              unit_description:
+              unit_description: [
                 "Definitions & existence conditions, Fourier transforms of some useful functions, Inverse Fourier Transform, l Properties of the Fourier Transform, Linearity, symmetry, scaling, time & frequency shifting, time differentiation and time integration, frequency differentiation & integration, convolutional property, Transforms of Periodic functions, frequency and amplitude spectra of a function, fourier cosine & sine transforms",
+              ],
             },
             {
               unit: 3,
               unit_title: "Special Mathematical Functions:",
-              unit_description:
+              unit_description: [
                 "Series Solutions of differential equations, Power series solutions of homogeneous equations , Singular points of linear differential equations, Gamma function ( Г(n)) , recurrence formula for Г(n) , value of Г(1/2), Beta function, relationship between Gamma & Beta functions, Error functions-definitions and simple properties, complimentary error function & Q function.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Legendre Functionsr",
-              unit_description:
+              unit_description: [
                 "Legendre differential equation, Legendre polynomial, Rodrigue’s formulae, generating function, Recurrence formulae, Orthogonality",
+              ],
             },
             {
               unit: 5,
               unit_title: "Bessel Functions",
-              unit_description:
-                "Bessel’s differential equation, Bessel functions of first and second types,, Recurrence formulae, Generating function, Orthogonality, Modified Bessel Functions,",
+              unit_description: [
+                "Bessel’s differential equation, Bessel functions of first and second types, Recurrence formulae, Generating function, Orthogonality, Modified Bessel Functions,",
+              ],
             },
           ],
           references: [
@@ -328,32 +357,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Unit 1",
-              unit_description:
+              unit_description: [
                 "Errors: Sources and types of errors, measurements. Significant digits. Floating point representation of numbers.  Roots of Non-linear Algebraic and Transcendental Functions , Bisection, Regula-Falsi, Secant and Newton-Raphson Methods, Fixed points iteration, Rate of convergence",
+              ],
             },
             {
               unit: 2,
               unit_title: "Unit 2",
-              unit_description:
+              unit_description: [
                 "Numerical solution of system of linear equations, Gauss elimination method, LU decomposition, ill-conditioned systems, Gauss-Seidel and Jacobi method, Rate of convergence.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Unit 3",
-              unit_description:
+              unit_description: [
                 "Polynomial interpolation: Finite differences, Newton’s forward and backward differences interpolation polynomials, Newton’s divided differences interpolation polynomial, Lagrange’s polynomial. Curve fitting: Method of least squares.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Unit 4",
-              unit_description:
+              unit_description: [
                 "Numerical differentiation and integration, Formulae for derivatives in the case of equally spaced points, Trapezoidal and Simpson’s rules, Errors in integration formulae. Monte-Carlo Method: Basic principles, One dimensional and Multi-dimensional integrals.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Unit 5",
-              unit_description:
+              unit_description: [
                 "Single-step and multistep methods for solving ordinary differential equations: Taylor series method, Euler’s method, Modified Euler’s method, Runge-Kutta methods.Adam’s & Milne’s method.Numerical solution for boundary value problems, Finite difference methods for solving Laplace’s equation in a rectangular region. Finite Element methods and its applications.",
+              ],
             },
           ],
           references: [
@@ -369,32 +403,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to Binary systems and Boolean Algebra:",
-              unit_description:
+              unit_description: [
                 "Digital systems, Number representation in different bases and their inter conversion, Compliments, Arithmetic operations on binary numbers, Binary codes; Basic theorems and properties, Switching algebra, Switching function and their representations. Canonical forms of switching functions and their transformations, operations over switching functions, Digital logic gates- symbols, logic expression and their truth tables.",
+              ],
             },
             {
               unit: 2,
               unit_title: "Digital ICs & Combinational Logic Circuits:",
-              unit_description:
+              unit_description: [
                 "Characteristics of digital ICs. Introduction to logic families- RTL,DTL, TTL,ECL,MOS and CMOS circuits and comparison of their performance.  Binary adder and Subtractor circuits, Magnitude comparator, Decoders, Encoders, Multiplexer and demultiplexer, Realization of switching expressions by decoders, encoders, multiplexer and Demultiplexer, Programmable logic circuits, Tri-state logic.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Combinational Circuit Design:",
-              unit_description:
+              unit_description: [
                 "Minimization Techniques, Realization of switching expressions by Karnaugh map, VEM and Quinne-Mclusky methods, Combinational circuits and their analysis. Realization of switching expressions by two level AND, OR, NOT gates; NAND gates only; NOR gates only and Ex-OR and AND gates only; MUX based circuit design",
+              ],
             },
             {
               unit: 4,
               unit_title: "Synchronous Sequential Logic Circuits:",
-              unit_description:
+              unit_description: [
                 "Sequential circuits, latches and Flip Flops, Analysis of clocked sequential circuits. State reduction and assignment, design of synchronous circuits, shift registers, ripple counters, synchronous counters.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Asynchronous Sequential Logic:",
-              unit_description:
+              unit_description: [
                 "Analysis procedure, circuits with latches, Design procedure, reduction of states and flow tables .Races and race Free State assignments, Hazards.",
+              ],
             },
           ],
           references: [
@@ -413,32 +452,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Transistors amplifiers",
-              unit_description:
+              unit_description: [
                 "Classification of amplifiers , Comparative study of CB,CE and CC amplifiers characteristics RC coupled amplifiers – analysis of gain in different frequency ranges and BW calculations, Multistage coupling –Cascade, cascade Darlington pair ,effect of coupling on gain & BW, Transformer coupled amplifiers, DC coupled amplifiers , Difference amplifiers .",
+              ],
             },
             {
               unit: 2,
               unit_title: "Power amplifiers:",
-              unit_description:
+              unit_description: [
                 "Class A, Class B, and Push-Pull amplifiers- Their working , advantages and drawbacks , comparison ; Class C, Class D amplifiers, stagger tuned amplifiers; FET amplifier configurations and analysis.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Feedback Amplifiers:",
-              unit_description:
+              unit_description: [
                 "Types of feedback and different feedback schemes in amplifiers ; General characteristics of negative feedback amplifiers and their effect on gain impedances , distortion, and noise , Emitter follower.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Oscillators:",
-              unit_description:
+              unit_description: [
                 "Barkhausen criterion for oscillations Tuned collector oscillator, RC phase shift and Wein bridge oscillator, Crystal oscillator, Frequency stabilization.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Power supplies:",
-              unit_description:
+              unit_description: [
                 "Block diagram of Power Supply (PS) and it’s constituent circuits , Electronics voltage stabilizer, Zenner and transistor circuits for stabilization, Constant current, and current limited PS, Basics of SMPS and UPS.",
+              ],
             },
           ],
           references: [
@@ -455,32 +499,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Resistive Circuit Analysis",
-              unit_description:
+              unit_description: [
                 "Circuit elements and their classification; LLFPB circuits; Nodal and Mesh analysis; Equivalence of networks; Duality; Source trans formations; T- transformation;",
+              ],
             },
             {
               unit: 2,
               unit_title: "Networks Theorems",
-              unit_description:
+              unit_description: [
                 "Superposition, Thevenin & Norton, Maximum power transfer, Reciprocity, Millman, Substitution & Tellgene’s theorems and their applications",
+              ],
             },
             {
               unit: 3,
               unit_title: "Transient Circuit Analysis",
-              unit_description:
+              unit_description: [
                 "Natural and forced response; Evaluation of initial conditions; Transient and steady state responses of simple RL, RC and RLC circuits to arbitrary excitations.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Sinusoidal Analysis",
-              unit_description:
+              unit_description: [
                 "Sinusoidal and Complex forcing functions; Phasor representation of Complex functions; sinusoidal steady-state response; Concept of Complex frequency; Damped Sinusoidal forcing function- Natural and forced response; Frequency response – parallel and series resonance. Mutual Impedance and coefficient of Coupling; Unity Coupled Coils;",
+              ],
             },
             {
               unit: 5,
               unit_title: "Classical Filters",
-              unit_description:
+              unit_description: [
                 "Characterization of Two ports, z,y, h and transmission parameters, Interconnection of two ports, Analysis of common two ports.  Filter fundamentals –pass and stop bands, The Constant –K low-pass and high-pass filters; The m-derived T and  sections; Band-pass and Band-elimination filters; Impedance Matching half- sections.",
+              ],
             },
           ],
           references: [
@@ -500,21 +549,24 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Advance communication",
-              unit_description:
+              unit_description: [
                 "Objectives of communication: Information, Advice, Order, suggestion, Persuasion, Education, Warning, Raising morale, Motivation, Audio-visual communication: Use of audio visual aids for effective communication, Role of news papers, Radio, Cinema and TV, Barrier to communication and overcoming barriers",
+              ],
             },
             {
               unit: 2,
               unit_title:
                 "Interactive Communication Skills & Personality Development",
-              unit_description:
+              unit_description: [
                 "Group Discussions, Debates, Facing an interview, know your body language, confidence building, e-mail etiquette, The art of listening: learning through listening, Hearing vs. Listening,",
+              ],
             },
             {
               unit: 3,
               unit_title: "Speaking & writing Skill",
-              unit_description:
+              unit_description: [
                 "Syllable & syllable stress, summarizing a passage for official usage, Précis writing, Report writing- importance of reports, preparing a report, technical report writing, Conversational skill, Telephonic Etiquettes",
+              ],
             },
           ],
           references: [
@@ -541,32 +593,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Mathematical Logic:",
-              unit_description:
+              unit_description: [
                 "Statements, Connectives, Statement formulas, Truth functional rules, Interpretation of formulas, Tautologies, Equivalence, Functionally complete set of connectives, Normal forms, Inference, Theory of statement calculus, Consistency of premises,",
+              ],
             },
             {
               unit: 2,
               unit_title: "Predicate Logic",
-              unit_description:
+              unit_description: [
                 "Predicates, statement functions, Quantification, Interpretation of predicate formulas, Inference theory for predicate calculus, Informal & formal proofs",
+              ],
             },
             {
               unit: 3,
               unit_title: "Set Theory:",
-              unit_description:
+              unit_description: [
                 "Basics of set theory, Properties of relations, equivalence & compatibility relation, Representation of relations, Reflective, symmetric & transitive closures, Characteristic functions of a set and its properties, Principle of inclusion and exclusion, its applications",
+              ],
             },
             {
               unit: 4,
               unit_title: "Graph Theory:",
-              unit_description:
+              unit_description: [
                 "Definition Simple digraphs, Matrix representations, Paths, Distances, Connectedness of digraphs, Path and reachability matrices, Boolean sum and product of bit matrices, Warshall’s algorithm for transitive closure of relations",
+              ],
             },
             {
               unit: 5,
               unit_title: "Lattices",
-              unit_description:
+              unit_description: [
                 "Partially ordered sets, Hasse diagrams, Elements of poset, Bounds, Lattices, Joint, Meet, Different types of lattices and their examples. Distributive and Modular lattices,",
+              ],
             },
           ],
           references: [
@@ -581,62 +638,87 @@ const Syllabus = (props) => {
           units: [
             {
               unit: 1,
-              unit_title: "Introduction:",
-              unit_description:
+              unit_title: "Introduction",
+              unit_description: [
                 "Data, information and knowledge, Characteristics of database approach, Data independence, Architecture of database system, Data dictionary, Types of database language, database system life cycle, Overview of hierarchical, network and relational model. Relations and Codd’s rules, Concepts of keys, Relation Algebra – Select, Project, Joins, Set operations, Update operations – tuple relational calculus, Relational Calculus vs. relational algebra. Data definition, data manipulation, view definition, nested queries, updation, Embedded SQL, Handling of nulls and cursors.",
+              ],
             },
             {
               unit: 2,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Data Models",
+              unit_description: [
+                "Conceptual, Logical and Physical design, ER models, ER diagrams, Strong and weak entity sets, Generalization, Specialization and Aggregation, Conversion of ER model into relational schemas",
+              ],
             },
             {
               unit: 3,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Normalization",
+              unit_description: [
+                "Normalization concepts, Functional dependencies and dependency preservations, Normal forms – 1NF, 2NF, 3NF, BCNF, 4NF, 5NF, DKNF, Indexing, File organization, De-normalization, Clustering of tables and indexes.",
+              ],
             },
             {
               unit: 4,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Transaction Handling:",
+              unit_description: [
+                "Transaction recovery, System recovery, Two phase commit, concurrency problems, locking, deadlocks, security, discretionary and mandatory access control, data encryption",
+              ],
             },
             {
               unit: 5,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Distributed databases",
+              unit_description: [
+                "Overview of query processing, concurrency control and recovery in distributed databases, overview of client/server architecture and its relationship with distributed databases, performance benchmark and performance tuning of databases",
+              ],
             },
           ],
-          references: [],
+          references: [
+            "Introduction to Database System – C.J. Date",
+            "Database Systems – Mcfadden et.al.",
+            "Database Concepts – Navathe et.al.",
+            "Database Structured Techniques for Design Performance – S. Atre",
+          ],
         },
         {
           paper: 3,
-          paper_title: "Engineering Mathematics I",
+          paper_title: "Data Structures",
           common: true,
           units: [
             {
               unit: 1,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Introduction",
+              unit_description: [
+                "Data Abstraction and Algorithm, Analysis , Data types / objects / structures, Abstract definition of data structures , Representation and implementation, Time requirements of algorithms, Space requirements of algorithms.",
+              ],
             },
             {
               unit: 2,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Arrays and Linked list",
+              unit_description: [
+                "Array implementation and addressing with examples Array applications and representation, Polynomials, Sparse matrices, String-pattern Matching Singly liked lists, list heads, circular list, doubly liked lists, orthogonal lists, generalized (recursive) lists, applications.",
+              ],
             },
             {
               unit: 3,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Stacks and Queues:",
+              unit_description: [
+                "Basic ideas, array and linked representation. Prefix/ infix / postfix expressions and their inter-conversion for evaluation, Priority, queues and simulation, Recursion",
+              ],
             },
             {
               unit: 4,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Trees and Graphs",
+              unit_description: [
+                "Definition, terminologies and properties , Binary tree representation traversals and applications, Threaded binary trees, Binary Search trees ,AVL Trees",
+                " Definition ,terminologies and properties, Graph representations, Minimum spanning trees , Depth-first search , Breadth-first search , Networks",
+              ],
             },
             {
               unit: 5,
-              unit_title: "",
-              unit_description: "",
+              unit_title: "Sort and Search Algorithms",
+              unit_description: [
+                "Internal and External Sorting algorithms , Heap sort, Merge sort, Quick-sort , General radix sort, Symbol tables, sequential search , Binary search , Interpolation search, Tries",
+              ],
             },
           ],
           references: [],
@@ -649,27 +731,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -682,27 +764,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -715,27 +797,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -753,27 +835,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -786,27 +868,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -819,27 +901,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -852,27 +934,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -885,27 +967,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -918,27 +1000,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -956,27 +1038,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -989,27 +1071,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1022,27 +1104,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1055,27 +1137,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1088,27 +1170,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1121,27 +1203,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1159,27 +1241,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1192,27 +1274,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1225,27 +1307,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1258,27 +1340,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1291,27 +1373,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1324,27 +1406,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1362,27 +1444,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1395,27 +1477,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1428,27 +1510,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1461,27 +1543,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1494,27 +1576,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1527,27 +1609,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1565,27 +1647,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1598,27 +1680,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1631,27 +1713,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1664,27 +1746,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: ["tkyytdktdu", "heththsrtjyj"],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1697,27 +1779,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1730,27 +1812,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -1771,32 +1853,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Linear Algebra",
-              unit_description:
+              unit_description: [
                 "Determinants, Matrices, Elementary row and column operations, Rank of matrix, Inverse of matrix, Eigen values and eigen vectors,, special types of matrices such as symmetric, skew asymmetric, Hermitian and skew hermitian matrices, Linear systems of algebraic equations, Consistency, Gauss elimination method to solve system of linear equations, Homogeneous and inhomogeneous systems of equations,, Cayley-Hamilton theorem,",
+              ],
             },
             {
               unit: 2,
               unit_title: "Calculus",
-              unit_description:
+              unit_description: [
                 "Limit, Continuity & differentiability of functions of one variable, Mean-value Theorems, Rolle’s Theorem, Leibnitz formula for nth derivatives of products of functions, Taylor and Maclaurin Theorems, Maxima, Minima, Theorems of integral calculus, Evaluation of definite & improper integrals, Functions of several variables: Partial differentiation, Change of variables in partial differentiation.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Vector Differential Calculus",
-              unit_description:
+              unit_description: [
                 "Scalar and vector fields, Directional derivatives, Differentials of functions of several variables, Change of variables, Gradient of a scalar function, Conservative fields and potential functions, Divergence and curl of vector fields, Chain rules, Applications to cylindrical and Spherical polar coordinates,",
+              ],
             },
             {
               unit: 4,
               unit_title: "Vector Integral Calculus",
-              unit_description:
+              unit_description: [
                 "Multiple integrals, Evaluation of double and triple integrals, Line, Surface & Volume integrals, Volumes and Surface Areas of Solids using multiple integrals, Green’s, Gauss’s and Stoke’s Theorem and application.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Fourier Series",
-              unit_description:
+              unit_description: [
                 "Introduction to Fourier series, trigonometric and exponential forms, Euler formulae for Fourier coefficients, Functions having period 2π and arbitrary period, Even & odd functions, Half range functions, Sine and cosine Fourier series, Fourier integrals,",
+              ],
             },
           ],
           references: [
@@ -1818,33 +1905,38 @@ const Syllabus = (props) => {
               unit: 1,
               unit_title:
                 "Ordinary Linear Differential Equations of first order and first degree",
-              unit_description:
+              unit_description: [
                 "Ordinary differential equations of first order, Separable, exact & linear equations, Existence and uniqueness theorems (Statement only), Higher order linear equations, Workinsons Method of variation of parameters for particular solutions, Euler’s and Cauchy’s equations, Systems of first order equations with constant coefficients",
+              ],
             },
             {
               unit: 2,
               unit_title:
                 "Ordinary Linear Differential Equations (LDE) of higher order",
-              unit_description:
+              unit_description: [
                 "Definition and general form of LDE, the operator D, complete solution of LDE as a sum of complimentary function (CF) and particular integral (PI), inverse operator rule for finding CF & PI, method of variation of parameter to find PI.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Complex Algebra",
-              unit_description:
+              unit_description: [
                 "Complex numbers, Complex plane, Roots of complex numbers, Complex functions and mappings, analytical functions, Cauchy-Riemann equations, elementary complex functions such as exponential , logarithmic, trigonometric, hyperbolic functions and Inverse functions, Harmonic functions,",
+              ],
             },
             {
               unit: 4,
               unit_title: "Complex Integration",
-              unit_description:
+              unit_description: [
                 "Complex integration, Complex integrals, Contours, the Cauchy Theorem and Contour integrals, The Cauchy integral formulas, Some properties of analytical functions, Complex integration: Line integral, Cauchy’s integral theorem,",
+              ],
             },
             {
               unit: 5,
               unit_title: "Contour Integration",
-              unit_description:
+              unit_description: [
                 "Residues and contour integration, Complex power series and Taylor Series, Laurent series and the classification of Singularities, residues and the residues theorem, Evaluation of real integrals by means of residues evaluation of real integrals using integration around unit circle, around the semi circle, integrating contours having poles, on the real axis, Conformal mapping and applications",
+              ],
             },
           ],
           references: [
@@ -1862,32 +1954,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Optics and Lasers",
-              unit_description:
+              unit_description: [
                 "Interference of light: Interference in thin films, Newton’s rings Diffraction: Fresnel and Fraunhofer diffraction, Plane diffraction grating, Measurement of wave length, Dispersive power of grating, Resolving power, Rayleigh criterion",
+              ],
             },
             {
               unit: 2,
               unit_title: "Lasers",
-              unit_description:
+              unit_description: [
                 "Basic principles of laser, spontaneous emission- stimulated emission-population inversion, spatial and temporal coherence- coherence length, optical amplification, laser rate equations, gain coefficient, threshold condition",
+              ],
             },
             {
               unit: 3,
               unit_title: "Introduction to quantum theory",
-              unit_description:
+              unit_description: [
                 "Wave particle duality, matter waves, group & phase velocity, uncertainty principle, wave packets, Schrodinger equation",
+              ],
             },
             {
               unit: 4,
               unit_title: "Solid State Physics",
-              unit_description:
+              unit_description: [
                 "Bonding in solids, Elastic properties of solids, Defects in crystals, Lattice vibrations and thermal properties of solids, Free electron theory, Band theory of solids, Metals, Semiconductors and insulators, Electrical conductivity of simple metals (Free Electron Theory)",
+              ],
             },
             {
               unit: 5,
               unit_title: "Nano Physics",
-              unit_description:
+              unit_description: [
                 "Introduction to nanophysics, energy levels, density of states, quantum wire, single electron tunneling, quantum dot, nano-transistors and FET, NEMS and sensors.",
+              ],
             },
           ],
           references: [
@@ -1950,32 +2047,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to hardware",
-              unit_description:
+              unit_description: [
                 "Brief introduction of binary numbers,, Functional block diagram of a computer, Stored program machine, Generation of computers, CPU, I/O, Secondary storage, Memory and its classifications.",
+              ],
             },
             {
               unit: 2,
               unit_title: "Introduction to software:",
-              unit_description:
+              unit_description: [
                 "Generations of programming languages, introduction to applications and system software, File storage, DOS and windows environment.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Algorithms",
-              unit_description:
+              unit_description: [
                 "Flow charts, Structure and properties of algorithm, Algorithms for g.c.d., Factorial, Fibonacci series, Prime number generation. Linear and binary search, Sorting and bubble sort etc.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Basics of C Language",
-              unit_description:
+              unit_description: [
                 "C pre-processor, Variables, Operators, Expressions, Control flow, Data types, Arrays, Pointers, Storage classes, Scope and initialization, Input/output, String processing,",
+              ],
             },
             {
               unit: 5,
               unit_title: "Pointer Based Programming",
-              unit_description:
+              unit_description: [
                 "Pointers, Dynamic data structures, Structures and unions, File handling,",
+              ],
             },
           ],
           references: [
@@ -2000,20 +2102,23 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to Communication",
-              unit_description:
+              unit_description: [
                 "Importance of communication, Communication in primitive societies, Ways of communication: One way & two way, Principles of communication: Clarity, Completeness, Conciseness, Consideration, Courtesy, Correctness, Coherency, Level of communication- inter and intra personal, group to person, group to group, Methods of effective oral, Written and non-verbal communication, Process of communication (flow): Downward, Upward and horizontal communication, Official Hierarchy",
+              ],
             },
             {
               unit: 2,
               unit_title: "Speaking & Reading Skills:",
-              unit_description:
+              unit_description: [
                 "Verbal, non-verbal & Visual Communication, Elementary phonetics: speech sounds, Consonant & Vowel Sounds, Phonetic symbols, Horizons-tone, frequency, rate, volume, depth, extempore speech, Rate of speech",
+              ],
             },
             {
               unit: 3,
               unit_title: "Writing Skills & Business correspondence:",
-              unit_description:
+              unit_description: [
                 "Comprehension of ideas in a passage, Expansion of an idea for a particular purpose, Change of words into different parts of speech, Idioms, Antonyms and synonyms, Drafting Business letters, CV & Resume, Application for jobs, Power-point presentation, Using Microsoft Office",
+              ],
             },
           ],
           references: [
@@ -2040,32 +2145,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Laplace Transform",
-              unit_description:
+              unit_description: [
                 "Definitions & existence conditions, Laplace transforms of some useful functions, Inverse Laplace Transform, Operational Properties of the Laplace Transform, Linearity, scaling, time shifting, shifting in s-domain, time differentiation and time integration, frequency differentiation & integration, convolutional property, Inversion Integral, Transforms of Periodic functions, Use of Laplace transforms in the solution of differential equations and analysis of electrical circuits.",
+              ],
             },
             {
               unit: 2,
               unit_title: "Fourier Transform",
-              unit_description:
+              unit_description: [
                 "Definitions & existence conditions, Fourier transforms of some useful functions, Inverse Fourier Transform, l Properties of the Fourier Transform, Linearity, symmetry, scaling, time & frequency shifting, time differentiation and time integration, frequency differentiation & integration, convolutional property, Transforms of Periodic functions, frequency and amplitude spectra of a function, fourier cosine & sine transforms",
+              ],
             },
             {
               unit: 3,
               unit_title: "Special Mathematical Functions:",
-              unit_description:
+              unit_description: [
                 "Series Solutions of differential equations, Power series solutions of homogeneous equations , Singular points of linear differential equations, Gamma function ( Г(n)) , recurrence formula for Г(n) , value of Г(1/2), Beta function, relationship between Gamma & Beta functions, Error functions-definitions and simple properties, complimentary error function & Q function.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Legendre Functionsr",
-              unit_description:
+              unit_description: [
                 "Legendre differential equation, Legendre polynomial, Rodrigue’s formulae, generating function, Recurrence formulae, Orthogonality",
+              ],
             },
             {
               unit: 5,
               unit_title: "Bessel Functions",
-              unit_description:
-                "Bessel’s differential equation, Bessel functions of first and second types,, Recurrence formulae, Generating function, Orthogonality, Modified Bessel Functions,",
+              unit_description: [
+                "Bessel’s differential equation, Bessel functions of first and second types, Recurrence formulae, Generating function, Orthogonality, Modified Bessel Functions,",
+              ],
             },
           ],
           references: [
@@ -2085,32 +2195,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Unit 1",
-              unit_description:
+              unit_description: [
                 "Errors: Sources and types of errors, measurements. Significant digits. Floating point representation of numbers.  Roots of Non-linear Algebraic and Transcendental Functions , Bisection, Regula-Falsi, Secant and Newton-Raphson Methods, Fixed points iteration, Rate of convergence",
+              ],
             },
             {
               unit: 2,
               unit_title: "Unit 2",
-              unit_description:
+              unit_description: [
                 "Numerical solution of system of linear equations, Gauss elimination method, LU decomposition, ill-conditioned systems, Gauss-Seidel and Jacobi method, Rate of convergence.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Unit 3",
-              unit_description:
+              unit_description: [
                 "Polynomial interpolation: Finite differences, Newton’s forward and backward differences interpolation polynomials, Newton’s divided differences interpolation polynomial, Lagrange’s polynomial. Curve fitting: Method of least squares.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Unit 4",
-              unit_description:
+              unit_description: [
                 "Numerical differentiation and integration, Formulae for derivatives in the case of equally spaced points, Trapezoidal and Simpson’s rules, Errors in integration formulae. Monte-Carlo Method: Basic principles, One dimensional and Multi-dimensional integrals.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Unit 5",
-              unit_description:
+              unit_description: [
                 "Single-step and multistep methods for solving ordinary differential equations: Taylor series method, Euler’s method, Modified Euler’s method, Runge-Kutta methods.Adam’s & Milne’s method.Numerical solution for boundary value problems, Finite difference methods for solving Laplace’s equation in a rectangular region. Finite Element methods and its applications.",
+              ],
             },
           ],
           references: [
@@ -2126,32 +2241,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Introduction to Binary systems and Boolean Algebra:",
-              unit_description:
+              unit_description: [
                 "Digital systems, Number representation in different bases and their inter conversion, Compliments, Arithmetic operations on binary numbers, Binary codes; Basic theorems and properties, Switching algebra, Switching function and their representations. Canonical forms of switching functions and their transformations, operations over switching functions, Digital logic gates- symbols, logic expression and their truth tables.",
+              ],
             },
             {
               unit: 2,
               unit_title: "Digital ICs & Combinational Logic Circuits:",
-              unit_description:
+              unit_description: [
                 "Characteristics of digital ICs. Introduction to logic families- RTL,DTL, TTL,ECL,MOS and CMOS circuits and comparison of their performance.  Binary adder and Subtractor circuits, Magnitude comparator, Decoders, Encoders, Multiplexer and demultiplexer, Realization of switching expressions by decoders, encoders, multiplexer and Demultiplexer, Programmable logic circuits, Tri-state logic.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Combinational Circuit Design:",
-              unit_description:
+              unit_description: [
                 "Minimization Techniques, Realization of switching expressions by Karnaugh map, VEM and Quinne-Mclusky methods, Combinational circuits and their analysis. Realization of switching expressions by two level AND, OR, NOT gates; NAND gates only; NOR gates only and Ex-OR and AND gates only; MUX based circuit design",
+              ],
             },
             {
               unit: 4,
               unit_title: "Synchronous Sequential Logic Circuits:",
-              unit_description:
+              unit_description: [
                 "Sequential circuits, latches and Flip Flops, Analysis of clocked sequential circuits. State reduction and assignment, design of synchronous circuits, shift registers, ripple counters, synchronous counters.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Asynchronous Sequential Logic:",
-              unit_description:
+              unit_description: [
                 "Analysis procedure, circuits with latches, Design procedure, reduction of states and flow tables .Races and race Free State assignments, Hazards.",
+              ],
             },
           ],
           references: [
@@ -2170,32 +2290,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Transistors amplifiers",
-              unit_description:
+              unit_description: [
                 "Classification of amplifiers , Comparative study of CB,CE and CC amplifiers characteristics RC coupled amplifiers – analysis of gain in different frequency ranges and BW calculations, Multistage coupling –Cascade, cascade Darlington pair ,effect of coupling on gain & BW, Transformer coupled amplifiers, DC coupled amplifiers , Difference amplifiers .",
+              ],
             },
             {
               unit: 2,
               unit_title: "Power amplifiers:",
-              unit_description:
+              unit_description: [
                 "Class A, Class B, and Push-Pull amplifiers- Their working , advantages and drawbacks , comparison ; Class C, Class D amplifiers, stagger tuned amplifiers; FET amplifier configurations and analysis.",
+              ],
             },
             {
               unit: 3,
               unit_title: "Feedback Amplifiers:",
-              unit_description:
+              unit_description: [
                 "Types of feedback and different feedback schemes in amplifiers ; General characteristics of negative feedback amplifiers and their effect on gain impedances , distortion, and noise , Emitter follower.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Oscillators:",
-              unit_description:
+              unit_description: [
                 "Barkhausen criterion for oscillations Tuned collector oscillator, RC phase shift and Wein bridge oscillator, Crystal oscillator, Frequency stabilization.",
+              ],
             },
             {
               unit: 5,
               unit_title: "Power supplies:",
-              unit_description:
+              unit_description: [
                 "Block diagram of Power Supply (PS) and it’s constituent circuits , Electronics voltage stabilizer, Zenner and transistor circuits for stabilization, Constant current, and current limited PS, Basics of SMPS and UPS.",
+              ],
             },
           ],
           references: [
@@ -2212,32 +2337,37 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Resistive Circuit Analysis",
-              unit_description:
+              unit_description: [
                 "Circuit elements and their classification; LLFPB circuits; Nodal and Mesh analysis; Equivalence of networks; Duality; Source trans formations; T- transformation;",
+              ],
             },
             {
               unit: 2,
               unit_title: "Networks Theorems",
-              unit_description:
+              unit_description: [
                 "Superposition, Thevenin & Norton, Maximum power transfer, Reciprocity, Millman, Substitution & Tellgene’s theorems and their applications",
+              ],
             },
             {
               unit: 3,
               unit_title: "Transient Circuit Analysis",
-              unit_description:
+              unit_description: [
                 "Natural and forced response; Evaluation of initial conditions; Transient and steady state responses of simple RL, RC and RLC circuits to arbitrary excitations.",
+              ],
             },
             {
               unit: 4,
               unit_title: "Sinusoidal Analysis",
-              unit_description:
+              unit_description: [
                 "Sinusoidal and Complex forcing functions; Phasor representation of Complex functions; sinusoidal steady-state response; Concept of Complex frequency; Damped Sinusoidal forcing function- Natural and forced response; Frequency response – parallel and series resonance. Mutual Impedance and coefficient of Coupling; Unity Coupled Coils;",
+              ],
             },
             {
               unit: 5,
               unit_title: "Classical Filters",
-              unit_description:
+              unit_description: [
                 "Characterization of Two ports, z,y, h and transmission parameters, Interconnection of two ports, Analysis of common two ports.  Filter fundamentals –pass and stop bands, The Constant –K low-pass and high-pass filters; The m-derived T and  sections; Band-pass and Band-elimination filters; Impedance Matching half- sections.",
+              ],
             },
           ],
           references: [
@@ -2257,21 +2387,24 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "Advance communication",
-              unit_description:
+              unit_description: [
                 "Objectives of communication: Information, Advice, Order, suggestion, Persuasion, Education, Warning, Raising morale, Motivation, Audio-visual communication: Use of audio visual aids for effective communication, Role of news papers, Radio, Cinema and TV, Barrier to communication and overcoming barriers",
+              ],
             },
             {
               unit: 2,
               unit_title:
                 "Interactive Communication Skills & Personality Development",
-              unit_description:
+              unit_description: [
                 "Group Discussions, Debates, Facing an interview, know your body language, confidence building, e-mail etiquette, The art of listening: learning through listening, Hearing vs. Listening,",
+              ],
             },
             {
               unit: 3,
               unit_title: "Speaking & writing Skill",
-              unit_description:
+              unit_description: [
                 "Syllable & syllable stress, summarizing a passage for official usage, Précis writing, Report writing- importance of reports, preparing a report, technical report writing, Conversational skill, Telephonic Etiquettes",
+              ],
             },
           ],
           references: [
@@ -2298,27 +2431,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2331,27 +2464,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2364,27 +2497,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2397,27 +2530,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2430,27 +2563,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2463,27 +2596,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2501,27 +2634,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2534,27 +2667,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2567,27 +2700,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2600,27 +2733,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2633,27 +2766,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2666,27 +2799,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2704,27 +2837,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2737,27 +2870,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2770,27 +2903,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2803,27 +2936,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2836,27 +2969,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2869,27 +3002,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2907,27 +3040,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2940,27 +3073,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -2973,27 +3106,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3006,27 +3139,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3039,27 +3172,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3072,27 +3205,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3110,27 +3243,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3143,27 +3276,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3176,27 +3309,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3209,27 +3342,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3242,27 +3375,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3275,27 +3408,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3313,27 +3446,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3346,27 +3479,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3379,27 +3512,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3412,27 +3545,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3445,27 +3578,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3478,27 +3611,27 @@ const Syllabus = (props) => {
             {
               unit: 1,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 2,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 3,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 4,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
             {
               unit: 5,
               unit_title: "",
-              unit_description: "",
+              unit_description: [""],
             },
           ],
           references: [],
@@ -3508,6 +3641,8 @@ const Syllabus = (props) => {
   ];
 
   const stream = props.userSyllabus;
+
+  let temparray = [];
 
   return (
     <div className="Syllabus">
@@ -3520,24 +3655,45 @@ const Syllabus = (props) => {
                 {syllabus.papers.map((getPaper) => {
                   return (
                     <div className="papers-content">
-                        <h3>Paper:{getPaper.paper}: &nbsp;&nbsp;{getPaper.paper_title}</h3>
-                        {getPaper.common? <p>(Common to both CSE & ECE)</p>: <p>(Only for CSE)</p>}
-                        {getPaper.units.map((getUnit,index) => {
-                            return (
-                                <div className="units-content">
-                                    <h4>{getUnit.unit}: {getUnit.unit_title}</h4>
-                                    <p>{getUnit.unit_description}</p>
-                                </div>
-                            )
-                        })}
-                        <h4 className="reference-heading">References:</h4>
-                        {getPaper.references.map((getreference,index) => {
-                            return(
-                            <div className="units-content">
-                                <p>{index+1} &nbsp;&nbsp;&nbsp;&nbsp;{getreference}</p>
-                            </div>
-                            );
-                        })}
+                      <h3>
+                        Paper:{getPaper.paper}: &nbsp;&nbsp;
+                        {getPaper.paper_title}
+                      </h3>
+                      {getPaper.common ? (
+                        <p>(Common to both CSE & ECE)</p>
+                      ) : (
+                        <p>(Only for CSE)</p>
+                      )}
+                      {getPaper.units.map((getUnit, index) => {
+                        return (
+                          console.log("raman consoling", getUnit.unit_description),
+                          <div className="units-content">
+                            <h4>
+                              {getUnit.unit}: {getUnit.unit_title}
+                            </h4>
+                            {getUnit.unit_description.map(
+                              (description, index) => {
+                                return (
+                                  <div>
+                                    <p> {description} </p>
+                                  </div>
+                                );
+                              }
+                            )}
+                            {/* <p>{getUnit.unit_description}</p> */}
+                          </div>
+                        );
+                      })}
+                      <h4 className="reference-heading">References:</h4>
+                      {getPaper.references.map((getreference, index) => {
+                        return (
+                          <div className="units-content">
+                            <p>
+                              {index + 1} &nbsp;&nbsp;&nbsp;&nbsp;{getreference}
+                            </p>
+                          </div>
+                        );
+                      })}
                     </div>
                   );
                 })}
