@@ -55,7 +55,15 @@
     font-size: 45px;
     font-weight: 500;
     text-decoration: underline;
-    padding-bottom: 3%;
+    padding-bottom: 1.5%;
+}
+
+.stream-name{
+    color: #354497;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+    padding-bottom: 1%;
 }
 
 #syllabus {
