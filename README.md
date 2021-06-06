@@ -1,6 +1,6 @@
 ![JKOSC gif](intro_logo.gif)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 # JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
@@ -113,6 +113,7 @@ We recognize all types of contributions. This project follows the [all-contribut
     <td align="center"><a href="https://github.com/trmofsln"><img src="https://avatars.githubusercontent.com/u/53634176?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tirupati Raman Mishra</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Atrmofsln" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=trmofsln" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=trmofsln" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/two-ticks"><img src="https://avatars.githubusercontent.com/u/68433541?v=4?s=100" width="100px;" alt=""/><br /><sub><b>TwoTicks</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=two-ticks" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=two-ticks" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ayushagarwal210"><img src="https://avatars.githubusercontent.com/u/63542407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayush Agarwal</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Aayushagarwal210" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=ayushagarwal210" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=ayushagarwal210" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/yashpra2626"><img src="https://avatars.githubusercontent.com/u/73299542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yash Kumar Prajapati</b></sub></a><br /><a href="https://github.com/JK-Open-Source-Community/JKOSC/issues?q=author%3Ayashpra2626" title="Bug reports">🐛</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=yashpra2626" title="Code">💻</a> <a href="https://github.com/JK-Open-Source-Community/JKOSC/commits?author=yashpra2626" title="Documentation">📖</a></td>
   </tr>
 </table>
 
