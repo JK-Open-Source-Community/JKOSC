@@ -20,6 +20,7 @@ function AboutPage() {
         <BannerBottom />
       </div>
       <h1>Know more about our developer community</h1>
+      <h2> Tirupati Raman Mishra </h2>
     </div>
   );
 }

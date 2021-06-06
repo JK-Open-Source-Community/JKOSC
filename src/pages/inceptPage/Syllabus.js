@@ -4266,7 +4266,7 @@ const Syllabus = (props) => {
     autoHeightMax={1080}
     thumbMinSize={30}
     universal={true}
-    style={{ width: 1050, height: 1010 }}
+    style={{ width: `85%`, height: 1010 }}
   >
       {stream &&
         cseSyllabus.map((syllabus) => {
