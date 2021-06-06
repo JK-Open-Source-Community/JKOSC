@@ -29,9 +29,11 @@ const Incept = () => {
       <div className="incept-container">
         <div className="syllabus-head" id="syllabus">
           Your B.tech Drive Path
+          </div>
+          <div className="stream-name">
           {userSyllabus && <div> Computer Science & Engineering </div>}
           {!userSyllabus && <div> Electronic & Communication Engineering </div>}
-        </div>
+          </div>
         <ButtonGroup variant="contained" color="primary" >
         
           <Button onClick={()=>setUserSyllabus(true)} className={userSyllabus ? "streamButton-selected" : "streamButton-deselected"}>CSE</Button>

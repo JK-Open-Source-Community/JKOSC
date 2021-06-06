@@ -3,7 +3,8 @@
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 5px;
-    width:100%;
+    width:80%;
+    justify-content: center;
 }
 
 .Scollbars {
@@ -20,11 +21,59 @@
 }
 
 .units-content{
-    padding-top:0.7%;
+    padding-top:1%;
     text-align: left;
 }
 
 .reference-heading{
     padding-top:1%;
     text-align: left;
+    color: #17283a;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.reference-content{
+    color: #2c3c4c;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding-top:0.7%;
+}
+
+.syllabus-heading1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #262623;
+}
+
+.syllabus-heading2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #2c3c4c;
+}
+
+.syllabus-heading3{
+    font-size: 22px;
+    font-weight: 400;
+    /* color: #465dbe; */
+    color: #e95355;
+    padding-bottom: 0.3%;
+    padding-top: 0.05%;
+}
+
+.syllabus-heading4{
+    font-size: 20px;
+    font-weight: 450;
+    /* color: #465dbe; */
+    color: #34495e;
+    padding-bottom: 1.5%;
+}
+
+.syllabus-heading5{
+    font-size: 17px;
+    font-weight: 380;
+    /* color: #465dbe; */
+    color: #405060;
+    padding-bottom: 0.3%;
 }
