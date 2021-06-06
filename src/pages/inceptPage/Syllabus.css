@@ -1,8 +1,18 @@
 .semester-content{
-    padding-top:5px;
+    padding-top:13px;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-bottom: 5px;
-    width:80%;
+    width:100%;
 }
+
+.Scollbars {
+    border: solid;
+    border-radius: 10px;
+    /* max-height: 1000px; */
+    border-width: 4px;
+    border-color: #232f29;
+  }
 
 .papers-content{
     padding-top:2%;

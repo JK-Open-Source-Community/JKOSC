@@ -1,5 +1,6 @@
 import React from "react";
 import "./Syllabus.css";
+import { Scrollbars } from "react-custom-scrollbars";
 
 const Syllabus = (props) => {
   const cseSyllabus = [
@@ -3511,6 +3512,17 @@ const Syllabus = (props) => {
 
   return (
     <div className="Syllabus">
+    <Scrollbars
+    className="Scollbars"
+    autoHide
+    autoHideTimeout={1000}
+    autoHideDuration={310}
+    autoHeightMin={300}
+    autoHeightMax={480}
+    thumbMinSize={30}
+    universal={true}
+    style={{ width: 990, height: 480 }}
+  >
       {stream &&
         cseSyllabus.map((syllabus) => {
           if (syllabus.semester === props.semester) {
@@ -3551,6 +3563,7 @@ const Syllabus = (props) => {
             return <h1> {syllabus.papers[0].units[0].unit_title} </h1>;
           }
         })}
+        </Scrollbars>
     </div>
   );
 };
