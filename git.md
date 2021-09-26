@@ -62,6 +62,4 @@ git push origin master
 git reset <hash_id>
 git add .
 git stash
-git add .
-git commit -m "any message"
 ```
