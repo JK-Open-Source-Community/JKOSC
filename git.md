@@ -56,3 +56,12 @@ git checkout master
 git rebase upstream/master 
 git push origin master
 ```
+
+### Retrieving files from previous commit
+```
+git reset <hash_id>
+git add .
+git stash
+git add .
+git commit -m "any message"
+```
