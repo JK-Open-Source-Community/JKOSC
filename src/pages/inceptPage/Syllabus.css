@@ -20,6 +20,27 @@
   padding-bottom: 2%;
 }
 
+.download-button{
+    font-family: "Poppins", sans-serif;
+    padding: 8px 16px !important;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-weight: 500 !important;
+    line-height: 1.75 !important;
+    border-radius: 4px !important;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    background-color: #3f51b5 !important;
+    color: white !important;
+    border-color: transparent !important;
+    border-radius: 90px !important;
+    transition: 0.5s !important;
+    margin-bottom: 10px;
+    margin-top:5% !important;
+    float:right !important;
+}
+
 .units-content {
   padding-top: 1%;
   text-align: left;
@@ -76,4 +97,194 @@
   /* color: #465dbe; */
   color: #405060;
   padding-bottom: 0.3%;
+}
+
+.about-Paper{
+  margin-bottom: 0.5%;
+}
+
+.print-first-page{
+  display: none;
+}
+
+
+@page {
+  /* size: 80mm 50mm; */
+  /* margin:5%; */
+  /* margin-top: 3%; */
+}
+
+@media all {
+  .pagebreak {
+    display: none;
+  }
+}
+
+@media print {
+
+  html, body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body {
+    height: 0px;
+    width:100%;
+}
+
+  .pagebreak {
+  margin-top: 6%;
+  /* margin: 5%; */
+  /* margin-bottom: 0%; */
+  display: block;
+  page-break-before: always;
+  border:5px darkgray solid;
+  border-radius: 25px;
+  }
+
+  .firstPage-break .pagebreak{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .print-first-page{
+    background-color: #9d0208 !important;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .print-syllabus-head{
+    padding-top:9%;
+    font-size: 65px;
+    font-weight: 800;
+  }
+
+  .print-jkosc-logo{
+    width:52%;
+  }
+
+  .print-btech-sem{
+    padding-top:1%;
+    font-size: 60px;
+    font-weight: 800;
+    color: #eae2b7;
+  }
+
+  .print-jkosc-head{
+    padding-top:0%;
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .print-jkosc-about{
+    padding-top:0%;
+    font-size: 25px;
+    font-weight: 600;
+    color: darkgray;
+  }
+
+  .print-jk-name{
+    padding-top:3%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #f2901f;
+  }
+
+  .print-jk-loaction{
+    padding-top:0%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #eae2b7;
+  }
+
+  .contact-jkosc-link{
+    /* display: flex; */
+    /* flex-direction: row; */
+    position: absolute;
+    bottom: 55px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    left:0px;
+    right: 0px;
+    color: #BFBDBD;
+  }
+
+  .github-jkosc-link{
+    left:45px;
+    position: absolute;
+    bottom: 25px;
+    font-size: 15px;
+    color: #0096c7;
+    font-weight: 500;
+  }
+
+  .web-jkosc-link{
+    right: 45px;
+    position: absolute;
+    bottom: 25px;
+    font-size: 15px;
+    color: #0096c7;
+    font-weight: 500;
+  }
+
+.semester-content {
+  padding-top: 0px;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.papers-content{
+  padding:10%;
+  padding-bottom: 0%;
+  padding-top: 6%;
+}
+
+
+.syllabus-heading2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.syllabus-heading3 {
+  font-size: 17px;
+  
+}
+
+.syllabus-heading1{
+  display: none;
+}
+
+.syllabus-heading4 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 350;
+}
+
+.syllabus-heading5 {
+  font-size: 13px;
+}
+
+.reference-heading {
+  text-align: left;
+  font-size: 20px;
+}
+
+.reference-content {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.syllabus-content-box{
+  margin-bottom: 2.5%;
+}
+
+.about-Paper{
+  margin-bottom: 1.5%;
+}
 }
