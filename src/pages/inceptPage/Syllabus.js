@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Syllabus.css";
 import { Scrollbars } from "react-custom-scrollbars";
+
+import JkoscLogo from "../../assets/jkosc-logo.png";
+import { Button,ButtonGroup } from "@material-ui/core";
+
+import ReactToPrint from 'react-to-print';
 
 const Syllabus = (props) => {
   const cseSyllabus = [
@@ -1295,60 +1300,6 @@ const Syllabus = (props) => {
         },
         {
           paper: 4,
-          paper_title: "Web Technology",
-          common: false,
-          units: [
-            {
-              unit: 1,
-              unit_title: "Unit 1",
-              unit_description: [
-                "Core Java: Introduction, Operator, Data Type, Variable, Control Statements, Methods and Classes, Inheritance, Package and Interface, Exception Handling, Multithreading programming, I/O, Java Applet, String handling, Networking, Event handling, Introduction to AWT controls, Layout managers, Menus, Images, Graphics.",
-              ],
-            },
-            {
-              unit: 2,
-              unit_title: "Unit 2",
-              unit_description: [
-                "Communication Issues, the Client, Multi-departmental & Large scale Websites, Quality Assurance and testing, Technological advances and Impact on Web Teams",
-                "HTML: Formatting Tags, Links, List, Tables, Frames, Forms, Comments in HTML,DHTML",
-              ],
-            },
-            {
-              unit: 3,
-              unit_title: "Unit 3",
-              unit_description: [
-                "Java Script: Introduction, Documents , Forms, Statements, Functions, Objects in JavaSScript, Events and Event Handling, Arrays, Buttons, Checkboxes, Text fields and Text areas.",
-              ],
-            },
-            {
-              unit: 4,
-              unit_title: "Unit 4",
-              unit_description: [
-                "XML: Introduction, Displaying an XML Document, Data Interchange with an XML document, Document type definitions, Parsers using XML, Client-side usage, Server Side usage",
-              ],
-            },
-            {
-              unit: 5,
-              unit_title: "Unit 5",
-              unit_description: [
-                "Common Gateway Interface(CGI), PERL,RMI, COM/DCOM, VBScript, Active Server Pages(ASP).",
-              ],
-            },
-          ],
-          references: [
-            "Burdman, Collaboratie Web Development, Addison Wesley.",
-            "Sharma & Sharma, Developing E-Commerce Sites , Addison Wesley.",
-            "Ivan Bayross, Web Technologies Part II, BPB Publications.",
-            "Margaret Levine Young, The complete Reference INTERNET, TMH",
-            "Naughton, Schildt, The Complete REfernce JAVA @, TMH",
-            "Balaguruswamy E, Programming in JAVA< TMH",
-            "ShishirGundavarma, CGI Programming on the world Wide Web, O'Reilly & Associate.",
-            "DON Box,  Essential COM, Addison Wesley.",
-            "GergBuczek, ASP Developer's Guide, TMH",
-          ],
-        },
-        {
-          paper: 5,
           paper_title: "Computer Networks",
           common: true,
           units: [
@@ -1396,6 +1347,55 @@ const Syllabus = (props) => {
             "Local Networks : Stalling, William",
             "Data Communication and Networking : Forouzan, B.A",
             "Tele Communication Switching Systems and Networks: Viswanathan Thiagrajan",
+          ],
+        },
+        {
+          paper: 5,
+          paper_title: "Communication Systems",
+          common: true,
+          units: [
+            {
+              unit: 1,
+              unit_title: "Amplitude Modulation and Detection",
+              unit_description: [
+                "AM equation analysis and its treatment with number of modulating signals, Square law modulator, Linear modulator schemes and circuits, DSB-SC modulators, Quadrature modulation, SSB-SC modulator, AM square law detector, Envelope detection, DSB-SC & SSB-SC detection, VSB modulation",
+              ],
+            },
+            {
+              unit: 2,
+              unit_title: "Angle Modulation and Detection",
+              unit_description: [
+                "Frequency and Phase modulation equations and their spectrum; Narrow band modulation and wide band modulation and relationship with AM,FM, and PM, Direct methods of FM generation, Indirect Armstrong method of FM generation, FM slope Amplitude type of detection, Phase discriminator and Ratio detector, Pre-emphasis and De-emphasis, Comparison of AM and FM, Phase locked loops",
+              ],
+            },
+            {
+              unit: 3,
+              unit_title: "AM, FM Transmitters and Receivers",
+              unit_description: [
+                "Blocks diagrams of standard AM and FM transmitters, Armstrong FM transmitter, AM and FM Radio receivers, Sensitivity, Selectivity, Fidelity, Stability, etc. TRF, receiver, Super heterodyne radio receiver- Block diagram and Principle of operation, Problems associated with it’s successful operation, their solutions and analysis (selection of intermediate frequency and Local oscillator frequency, Tracking, Rejection of image signal and noise, AGC and AFC)",
+              ],
+            },
+            {
+              unit: 4,
+              unit_title: "SNR Considerations in AM and FM systems",
+              unit_description: [
+                "SNR calculations in DSB, DSB-SC and SSB AM receivers, SNR in FM receivers, Comparison of SNR.",
+              ],
+            },
+            {
+              unit: 5,
+              unit_title: "Pulse Modulations",
+              unit_description: [
+                "Sampling theorem for LP and BP signals, Channel BW and for PAM signal, Natural and Flat-top sampling, Signal recovery, Pulse time modulations.",
+              ],
+            },
+          ],
+          references: [
+            "Principles of Communication Systems Taub and Schilling",
+            "Communication Systems Simon Haykin",
+            "Modern Analog & Digital Communications B.P. Lathi",
+            "Analog & Digital Communications Samaugan",
+            "Electronic Communication System George Kennedy",
           ],
         },
         {
@@ -1647,55 +1647,6 @@ const Syllabus = (props) => {
         },
         {
           paper: 5,
-          paper_title: "Machine Learning",
-          common: false,
-          units: [
-            {
-              unit: 1,
-              unit_title: "Unit 1",
-              unit_description: [
-                "Machine learning problems, types of learning, designing a learning system, Introduction of inductive learning, learning semantic networks, general setting for induction",
-              ],
-            },
-            {
-              unit: 2,
-              unit_title: "Unit 2",
-              unit_description: [
-                "Languages for learning, version space learning, Induction of decision trees, OneR, ID3, Relational Learning and Inductive Logic Programming, Bayesian learning, Bayesian belief networks",
-              ],
-            },
-            {
-              unit: 3,
-              unit_title: "Unit 3",
-              unit_description: [
-                "Supervised learning setup. LMS, Logistic regression. Perceptron, Exponential family, Generative learning algorithms. Gaussian discriminant analysis. Naive Bayes, Support vector machines.",
-              ],
-            },
-            {
-              unit: 4,
-              unit_title: "Unit 4",
-              unit_description: [
-                "Instance-based learning, Analytical (Explanation-Based) Learning, Unsupervised learning: clustering, K-means, EM, PCA",
-              ],
-            },
-            {
-              unit: 5,
-              unit_title: "Unit 5",
-              unit_description: [
-                "Deep learning, neural networks and convolutional neural networks, end-to-end learning, recurrent networks, generative models, variational inference",
-              ],
-            },
-          ],
-          references: [
-            "Bishop, Christopher - Neural Networks for Pattern Recognition",
-            "Duda, Richard, Peter Hart, and David Stork - Pattern Classification",
-            "Hastie, T., R. Tibshirani, and J. H. Friedman - The Elements of Statistical Learning: Data Mining, Inference and Prediction",
-            "David - Information Theory, Inference, and Learning Algorithms",
-            "Mitchell, Tom - Machine Learning",
-          ],
-        },
-        {
-          paper: 6,
           paper_title: "Digital Signal Processing",
           common: true,
           units: [
@@ -1735,6 +1686,47 @@ const Syllabus = (props) => {
             "Discrete Time Signal Processing: Openheim & Shafer (PHI)",
             "Signal Processing & Linear Systems: B.P. Lathi (Oxford)",
             "Principles and Application of Signal Processing: Robiner Gold (PHI)",
+          ],
+        },
+        {
+          paper: 6,
+          paper_title: "Digital Communication II",
+          common: true,
+          units: [
+            {
+              unit: 1,
+              unit_title: "Multiplexing of PCM signals",
+              unit_description: [
+                "Multiplexing of PCM signals, Digital Hierarchy (American & European), Pulse stuffing, Power density of digital data, Ortho-normal functions, Representation of signals in terms of ortho-normal functions Gram Schmidt procedure",
+              ],
+            },
+            {
+              unit: 2,
+              unit_title: "Digital Modulation Schemes",
+              unit_description: [
+                "BPSK, OOK, BFSK, DPSK, Quadrature phase shift keying, CPFSK and minimum shift keying, M-ary ASK, PSK and FSK schemes, QAM scheme",
+              ],
+            },
+            {
+              unit: 3,
+              unit_title: "Binary Decision Criteria",
+              unit_description: [
+                "Maximum likelihood, Neymann Pearson, Probability of error (MAP-criterian), Bayes risk (cost) and Min-Max decision criterions",
+              ],
+            },
+            {
+              unit: 4,
+              unit_title:
+                "Demodulation in Presence of Additive White Gaussian Noise (Unit 4 & 5)",
+              unit_description: [
+                "Different representation of narrow band signals and systems A baseband receiver, optimum filter, matched filter & cross-correlator receivers, , Spectrum of digital modulated signals, Calculation of probability of error for binary & M-ary signals, digital signaling schemes for coherent and non-coherent demodulation. Comparison of different modulation schemes, Symbol synchronization and carrier recovery circuits",
+              ],
+            },
+          ],
+          references: [
+            "Principles of Communication: Taub & Schilling (TMH)",
+            "Digital Communication : J.G. Proakis (TMH)",
+            "Digital Communication : S.Haykin (Wiley)",
           ],
         },
       ],
@@ -1793,48 +1785,52 @@ const Syllabus = (props) => {
         },
         {
           paper: 2,
-          paper_title: "Mobile Communication",
-          common: true,
+          paper_title: "Cryptography and Network Security",
+          common: false,
           units: [
             {
               unit: 1,
-              unit_title: "Unit 1",
+              unit_title: "Security Concepts",
               unit_description: [
-                "Introduction, Applications, History, A Simplified Reference Model, Wireless Transmission, Frequency For Radio Transmission, Signals, Antennas, Signal Propagation, Multiplexing, Modulation, Spread Spectrum.",
+                "Security goals, Cryptographic attacks, Security services, Security Mechanisms, Symmetric and Asymmetric key cryptography, Steganography, Traditional Symmetric-Key Ciphers: plain text and cipher text, substitution techniques, transposition techniques, Stream ciphers and Block ciphers, Mathematics of symmetric-key cryptography, modern symmetric-key ciphers.",
               ],
             },
             {
               unit: 2,
-              unit_title: "Unit 2",
+              unit_title: "Symmetric Key Cryptography",
               unit_description: [
-                "Medium Access Control, Hidden And Exposed Terminals, Near And Far Terminals, SDMA, FDMA, TDMA, CDMA, Elements Of Cellular Radio System Design, Introduction To Cellular Mobile Systems, Why Cellular Mobile Systems, A Basic Cellular System, Elements Of Cellular Radio System Design, Concept Of Frequency Reuse Channels, Hands Off, Cell Splitting",
+                "Data Encryption Standard (DES), DES Analysis, Security of DES: Brute-Force attack, Differential and                linear cryptanalysis, 2-DES and Meet in the Middle attack, 3-DES Block ciphers influenced by DES: CAST block Cipher, Blowfish, IDEA, Advanced Encryption Standard(AES), Analysis of AES, Modern Symmetric-Key Ciphers, Modes of operation: Electronic Codebook (ECB), Cipher block Chaining (CBC), Cipher feedback(CFB), Output feedback(OFB), Counter(CTR), Stream Ciphers: RC4 and A5/1, Symmetric key distribution problems and protocols.",
               ],
             },
             {
               unit: 3,
-              unit_title: "Unit 3",
+              unit_title: "Public Key Cryptography",
               unit_description: [
-                "Mobile Network Layer, Mobile IP, IPv6, Dynamic Host Configuration Protocol, Mobile Ad-Hoc Networks, Routing, Destination Sequence Distance Vector, Dynamic Source Routing",
+                "Mathematics of asymmetric key cryptography: Primes, Euler‘s totient function, Fermat‘s and Euler‘s              Theorem, Primality Testing, Factorization, Chinese Remainder Theorem, Exponentiation and logarithm, Asymmetric key ciphers: Introduction, RSA cryptosystem, Rabin cryptosystem, ElGamal cryptosystem, Elliptic curve cryptosystems, Key management: Diffie-Hellman key agreement protocol, key distribution protocols based on Chinese Remainder theorem and RSA cryptosystem.",
               ],
             },
             {
               unit: 4,
-              unit_title: "Unit 4",
+              unit_title: "Integrity and Authentication",
               unit_description: [
-                "Mobile Transport Layer, Traditional TCP, Congestion Control, Slow Start, Fast Retransmit/ Fast Recovery, Implication Of Mobility, Classical TCP Improvements, TCP Over 2.5/ 3G Wireless Networks, Performance Enhancing Proxies.",
+                "Message Integrity, Message Authentication: Modification Detection Code (MDC), Message Authentication Code (MAC), Cryptographic Hash functions, MD hash Family, Secure Hash Algorithm: SHA-512, Digital signature, Attacks on digital signature, Digital Signature Schemes: RSA, ElGamal, Schnorr, Digital Signature Standard (DSS) and Elliptic Curve Digital Signature Scheme. Entity Authentication: Passwords, Challenge Responses, Zero-Knowledge, Biometrics.",
               ],
             },
             {
               unit: 5,
-              unit_title: "Unit 5",
+              unit_title: "Network Security",
               unit_description: [
-                "GSM, Mobile Services, System Architecture, Radio Interface, Protocols, Localization and Calling, Handover, Security, New Data Services.",
+                "Security at the Application layer: Pretty Good Privacy (PGP) and Secure/ Multipurpose Internet Mail                Extension(S/MIME), Security at the transport layer: Secure Sockets Layer (SSL) and Transport Layer                Security (TLS), Security at the Network Layer: IPSec, System Security.",
               ],
             },
           ],
           references: [
-            "Mobile Cellular Telecommunication: Analog and Digital Systems by W.C.Y Lee, Mc Graw- Hill.",
-            "Mobile Communications by Jochen Schiller, Pearson Education.",
+            "William Stallings, “Cryptography and Network Security: Principals and Practice”, Prentice Hall, New Jersy.",
+            "Bruce Schiener, “Applied Cryptography”.",
+            "Behrouz A. Foruzan, Cryptography and Network Security, Tata McGraw Hill.",
+            "Network Security and Cryptography: Bernard Menezes, CENGAGE Learning",
+            "Cryptography and Network Security: Atul Kahate, Mc Graw Hill",
+            "V.K. Pachghare, Cryptography and Information Security, PHI Learning Private Limited Delhi.",
           ],
         },
         {
@@ -3427,55 +3423,6 @@ const Syllabus = (props) => {
         },
         {
           paper: 4,
-          paper_title: "Communication Systems",
-          common: false,
-          units: [
-            {
-              unit: 1,
-              unit_title: "Amplitude Modulation and Detection",
-              unit_description: [
-                "AM equation analysis and its treatment with number of modulating signals, Square law modulator, Linear modulator schemes and circuits, DSB-SC modulators, Quadrature modulation, SSB-SC modulator, AM square law detector, Envelope detection, DSB-SC & SSB-SC detection, VSB modulation",
-              ],
-            },
-            {
-              unit: 2,
-              unit_title: "Angle Modulation and Detection",
-              unit_description: [
-                "Frequency and Phase modulation equations and their spectrum; Narrow band modulation and wide band modulation and relationship with AM,FM, and PM, Direct methods of FM generation, Indirect Armstrong method of FM generation, FM slope Amplitude type of detection, Phase discriminator and Ratio detector, Pre-emphasis and De-emphasis, Comparison of AM and FM, Phase locked loops",
-              ],
-            },
-            {
-              unit: 3,
-              unit_title: "AM, FM Transmitters and Receivers",
-              unit_description: [
-                "Blocks diagrams of standard AM and FM transmitters, Armstrong FM transmitter, AM and FM Radio receivers, Sensitivity, Selectivity, Fidelity, Stability, etc. TRF, receiver, Super heterodyne radio receiver- Block diagram and Principle of operation, Problems associated with it’s successful operation, their solutions and analysis (selection of intermediate frequency and Local oscillator frequency, Tracking, Rejection of image signal and noise, AGC and AFC)",
-              ],
-            },
-            {
-              unit: 4,
-              unit_title: "SNR Considerations in AM and FM systems",
-              unit_description: [
-                "SNR calculations in DSB, DSB-SC and SSB AM receivers, SNR in FM receivers, Comparison of SNR.",
-              ],
-            },
-            {
-              unit: 5,
-              unit_title: "Pulse Modulations",
-              unit_description: [
-                "Sampling theorem for LP and BP signals, Channel BW and for PAM signal, Natural and Flat-top sampling, Signal recovery, Pulse time modulations.",
-              ],
-            },
-          ],
-          references: [
-            "Principles of Communication Systems Taub and Schilling",
-            "Communication Systems Simon Haykin",
-            "Modern Analog & Digital Communications B.P. Lathi",
-            "Analog & Digital Communications Samaugan",
-            "Electronic Communication System George Kennedy",
-          ],
-        },
-        {
-          paper: 5,
           paper_title: "Computer Networks",
           common: true,
           units: [
@@ -3523,6 +3470,55 @@ const Syllabus = (props) => {
             "Local Networks : Stalling, William",
             "Data Communication and Networking : Forouzan, B.A",
             "Tele Communication Switching Systems and Networks: Viswanathan Thiagrajan",
+          ],
+        },
+        {
+          paper: 5,
+          paper_title: "Communication Systems",
+          common: true,
+          units: [
+            {
+              unit: 1,
+              unit_title: "Amplitude Modulation and Detection",
+              unit_description: [
+                "AM equation analysis and its treatment with number of modulating signals, Square law modulator, Linear modulator schemes and circuits, DSB-SC modulators, Quadrature modulation, SSB-SC modulator, AM square law detector, Envelope detection, DSB-SC & SSB-SC detection, VSB modulation",
+              ],
+            },
+            {
+              unit: 2,
+              unit_title: "Angle Modulation and Detection",
+              unit_description: [
+                "Frequency and Phase modulation equations and their spectrum; Narrow band modulation and wide band modulation and relationship with AM,FM, and PM, Direct methods of FM generation, Indirect Armstrong method of FM generation, FM slope Amplitude type of detection, Phase discriminator and Ratio detector, Pre-emphasis and De-emphasis, Comparison of AM and FM, Phase locked loops",
+              ],
+            },
+            {
+              unit: 3,
+              unit_title: "AM, FM Transmitters and Receivers",
+              unit_description: [
+                "Blocks diagrams of standard AM and FM transmitters, Armstrong FM transmitter, AM and FM Radio receivers, Sensitivity, Selectivity, Fidelity, Stability, etc. TRF, receiver, Super heterodyne radio receiver- Block diagram and Principle of operation, Problems associated with it’s successful operation, their solutions and analysis (selection of intermediate frequency and Local oscillator frequency, Tracking, Rejection of image signal and noise, AGC and AFC)",
+              ],
+            },
+            {
+              unit: 4,
+              unit_title: "SNR Considerations in AM and FM systems",
+              unit_description: [
+                "SNR calculations in DSB, DSB-SC and SSB AM receivers, SNR in FM receivers, Comparison of SNR.",
+              ],
+            },
+            {
+              unit: 5,
+              unit_title: "Pulse Modulations",
+              unit_description: [
+                "Sampling theorem for LP and BP signals, Channel BW and for PAM signal, Natural and Flat-top sampling, Signal recovery, Pulse time modulations.",
+              ],
+            },
+          ],
+          references: [
+            "Principles of Communication Systems Taub and Schilling",
+            "Communication Systems Simon Haykin",
+            "Modern Analog & Digital Communications B.P. Lathi",
+            "Analog & Digital Communications Samaugan",
+            "Electronic Communication System George Kennedy",
           ],
         },
         {
@@ -3774,47 +3770,6 @@ const Syllabus = (props) => {
         },
         {
           paper: 5,
-          paper_title: "Digital Communication II",
-          common: false,
-          units: [
-            {
-              unit: 1,
-              unit_title: "Multiplexing of PCM signals",
-              unit_description: [
-                "Multiplexing of PCM signals, Digital Hierarchy (American & European), Pulse stuffing, Power density of digital data, Ortho-normal functions, Representation of signals in terms of ortho-normal functions Gram Schmidt procedure",
-              ],
-            },
-            {
-              unit: 2,
-              unit_title: "Digital Modulation Schemes",
-              unit_description: [
-                "BPSK, OOK, BFSK, DPSK, Quadrature phase shift keying, CPFSK and minimum shift keying, M-ary ASK, PSK and FSK schemes, QAM scheme",
-              ],
-            },
-            {
-              unit: 3,
-              unit_title: "Binary Decision Criteria",
-              unit_description: [
-                "Maximum likelihood, Neymann Pearson, Probability of error (MAP-criterian), Bayes risk (cost) and Min-Max decision criterions",
-              ],
-            },
-            {
-              unit: 4,
-              unit_title:
-                "Demodulation in Presence of Additive White Gaussian Noise (Unit 4 & 5)",
-              unit_description: [
-                "Different representation of narrow band signals and systems A baseband receiver, optimum filter, matched filter & cross-correlator receivers, , Spectrum of digital modulated signals, Calculation of probability of error for binary & M-ary signals, digital signaling schemes for coherent and non-coherent demodulation. Comparison of different modulation schemes, Symbol synchronization and carrier recovery circuits",
-              ],
-            },
-          ],
-          references: [
-            "Principles of Communication: Taub & Schilling (TMH)",
-            "Digital Communication : J.G. Proakis (TMH)",
-            "Digital Communication : S.Haykin (Wiley)",
-          ],
-        },
-        {
-          paper: 6,
           paper_title: "Digital Signal Processing",
           common: true,
           units: [
@@ -3854,6 +3809,47 @@ const Syllabus = (props) => {
             "Discrete Time Signal Processing: Openheim & Shafer (PHI)",
             "Signal Processing & Linear Systems: B.P. Lathi (Oxford)",
             "Principles and Application of Signal Processing: Robiner Gold (PHI)",
+          ],
+        },
+        {
+          paper: 6,
+          paper_title: "Digital Communication II",
+          common: true,
+          units: [
+            {
+              unit: 1,
+              unit_title: "Multiplexing of PCM signals",
+              unit_description: [
+                "Multiplexing of PCM signals, Digital Hierarchy (American & European), Pulse stuffing, Power density of digital data, Ortho-normal functions, Representation of signals in terms of ortho-normal functions Gram Schmidt procedure",
+              ],
+            },
+            {
+              unit: 2,
+              unit_title: "Digital Modulation Schemes",
+              unit_description: [
+                "BPSK, OOK, BFSK, DPSK, Quadrature phase shift keying, CPFSK and minimum shift keying, M-ary ASK, PSK and FSK schemes, QAM scheme",
+              ],
+            },
+            {
+              unit: 3,
+              unit_title: "Binary Decision Criteria",
+              unit_description: [
+                "Maximum likelihood, Neymann Pearson, Probability of error (MAP-criterian), Bayes risk (cost) and Min-Max decision criterions",
+              ],
+            },
+            {
+              unit: 4,
+              unit_title:
+                "Demodulation in Presence of Additive White Gaussian Noise (Unit 4 & 5)",
+              unit_description: [
+                "Different representation of narrow band signals and systems A baseband receiver, optimum filter, matched filter & cross-correlator receivers, , Spectrum of digital modulated signals, Calculation of probability of error for binary & M-ary signals, digital signaling schemes for coherent and non-coherent demodulation. Comparison of different modulation schemes, Symbol synchronization and carrier recovery circuits",
+              ],
+            },
+          ],
+          references: [
+            "Principles of Communication: Taub & Schilling (TMH)",
+            "Digital Communication : J.G. Proakis (TMH)",
+            "Digital Communication : S.Haykin (Wiley)",
           ],
         },
       ],
@@ -3908,7 +3904,7 @@ const Syllabus = (props) => {
         {
           paper: 2,
           paper_title: "Mobile Communication",
-          common: true,
+          common: false,
           units: [
             {
               unit: 1,
@@ -4255,39 +4251,138 @@ const Syllabus = (props) => {
 
   const stream = props.userSyllabus;
 
+  const componentRef = useRef();
+
   return (
     <div className="Syllabus">
-    <Scrollbars
-    className="Scollbars"
-    autoHide
-    autoHideTimeout={1000}
-    autoHideDuration={310}
-    autoHeightMin={300}
-    autoHeightMax={1080}
-    thumbMinSize={30}
-    universal={true}
-    style={{ width: `85%`, height: 1010 }}
-  >
-      {stream &&
-        cseSyllabus.map((syllabus) => {
-          if (syllabus.semester === props.semester) {
-            return (
-              <div className="semester-content">
-                <div className="syllabus-heading1"> Semester : {syllabus.semester}</div>
-                {syllabus.papers.map((getPaper) => {
-                  return (
-                    <div className="papers-content">
-                      <div className="syllabus-heading2">
-                        Paper:{getPaper.paper}: &nbsp;&nbsp;
-                        {getPaper.paper_title}
+
+      <ReactToPrint
+        trigger={() => <Button className="download-button">Download Syllabus</Button>}
+        content={() => componentRef.current}
+      />
+
+
+      <Scrollbars
+        className="Scollbars"
+        autoHide
+        autoHideTimeout={1000}
+        autoHideDuration={310}
+        autoHeightMin={300}
+        autoHeightMax={1080}
+        thumbMinSize={30}
+        universal={true}
+        style={{ width: `85%`, height: 1010 }}
+      >
+        {stream &&
+          cseSyllabus.map((syllabus) => {
+            if (syllabus.semester === props.semester) {
+              return (
+                <div className="semester-content" ref={componentRef} >
+                  <div className="syllabus-heading1"> Semester : {syllabus.semester}</div>
+                  <div className="print-first-page">
+                    <div className="print-syllabus-head"> Syllabus : B.Tech </div>
+                    <div className="print-btech-sem"> Semester &nbsp;{syllabus.semester} &nbsp; &nbsp;: &nbsp; {stream == true ? "CSE" : "ECE"} </div>
+                    <img src={JkoscLogo} alt="JKOSC" className="print-jkosc-logo" />
+                    <div className="print-jkosc-head"> JK Open Source Community </div>
+                    <div className="print-jkosc-about"> A community of developers run by the students of </div>
+                    <div className="print-jk-name"> JK Institute of Applied Physics and Technology </div>
+                    <div className="print-jk-loaction"> University of Allahabad, Prayagraj </div>
+                    <div className="contact-jkosc-link"> Follow us On : </div>
+                    <div className="github-jkosc-link"> https://github.com/JK-Open-Source-Community/JKOSC </div>
+                    <div className="web-jkosc-link"> https://jkopenwork.web.app </div>
+                  </div>
+                  <div className="firstPage-break">
+                    <div className="pagebreak" />
+                  </div>
+                  {syllabus.papers.map((getPaper, index) => {
+                    return (
+                      <div className="papers-content">
+                        <div className="about-Paper">
+                          <div className="syllabus-heading2">
+                            Paper: {getPaper.paper} &nbsp;: &nbsp;
+                            {getPaper.paper_title}
+                          </div>
+                          {getPaper.common ? (
+                            <div className="syllabus-heading4">(Common to both CSE & ECE)</div>
+                          ) : (
+                            <div className="syllabus-heading4">(Only for CSE)</div>
+                          )}
+                        </div>
+                        <div className="syllabus-content-box">
+                          {getPaper.units.map((getUnit) => {
+                            return (
+                              <div className="units-content">
+                                <div className="syllabus-heading3">
+                                  {getUnit.unit}:&nbsp;&nbsp; {getUnit.unit_title}
+                                </div>
+                                {getUnit.unit_description.map(
+                                  (description) => {
+                                    return (
+                                      <div className="syllabus-heading5">
+                                        <p> {description} </p>
+                                      </div>
+                                    );
+                                  }
+                                )}
+                                {/* <p>{getUnit.unit_description}</p> */}
+                              </div>
+                            );
+                          })}
+                        </div>
+                        <div className="reference-heading">References:</div>
+                        {getPaper.references.map((getreference, index) => {
+                          return (
+                            <div className="reference-content">
+                              {index + 1} &nbsp;&nbsp;&nbsp;&nbsp;{getreference}
+                            </div>
+                          );
+                        })}
+                        {syllabus.papers.length !== (index + 1) && (
+                          <div className="pagebreak" />
+                        )}
+
                       </div>
-                      {getPaper.common ? (
-                        <div className="syllabus-heading4">(Common to both CSE & ECE)</div>
-                      ) : (
-                        <div className="syllabus-heading4">(Only for CSE)</div>
-                      )}
-                      {getPaper.units.map((getUnit, index) => {
-                        return (
+                    );
+                  })}
+                </div>
+              );
+            }
+          })}
+        {!stream &&
+          eceSyllabus.map((syllabus, index) => {
+            if (syllabus.semester === props.semester) {
+              return (
+                <div className="semester-content" ref={componentRef}>
+                  <div className="syllabus-heading1"> Semester : {syllabus.semester}</div>
+                  <div className="print-first-page">
+                    <div className="print-syllabus-head"> Syllabus : B.Tech </div>
+                    <div className="print-btech-sem"> Semester &nbsp;{syllabus.semester} &nbsp; &nbsp;: &nbsp; {stream == true ? "CSE" : "ECE"} </div>
+                    <img src={JkoscLogo} alt="JKOSC" className="print-jkosc-logo" />
+                    <div className="print-jkosc-head"> JK Open Source Community </div>
+                    <div className="print-jkosc-about"> A community of developers run by the students of </div>
+                    <div className="print-jk-name"> JK Institute of Applied Physics and Technology </div>
+                    <div className="print-jk-loaction"> University of Allahabad, Prayagraj </div>
+                    <div className="contact-jkosc-link"> Follow us On : </div>
+                    <div className="github-jkosc-link"> https://github.com/JK-Open-Source-Community/JKOSC </div>
+                    <div className="web-jkosc-link"> https://jkopenwork.web.app </div>
+                  </div>
+                  <div className="firstPage-break">
+                    <div className="pagebreak" />
+                  </div>
+                  {syllabus.papers.map((getPaper, index) => {
+                    return (
+                      <div className="papers-content">
+                        <div className="syllabus-heading2">
+                            Paper: {getPaper.paper} &nbsp;: &nbsp;
+                            {getPaper.paper_title}
+                          </div>
+                        {getPaper.common ? (
+                          <div className="syllabus-heading4">(Common to both CSE & ECE)</div>
+                        ) : (
+                          <div className="syllabus-heading4">(Only for ECE)</div>
+                        )}
+                        {getPaper.units.map((getUnit, index) => {
+                          return (
                             <div className="units-content">
                               <div className="syllabus-heading3">
                                 {getUnit.unit}:&nbsp;&nbsp; {getUnit.unit_title}
@@ -4303,76 +4398,27 @@ const Syllabus = (props) => {
                               )}
                               {/* <p>{getUnit.unit_description}</p> */}
                             </div>
-                        );
-                      })}
-                      <div className="reference-heading">References:</div>
-                      {getPaper.references.map((getreference, index) => {
-                        return (
-                          <div className="reference-content">
+                          );
+                        })}
+                        <div className="reference-heading">References:</div>
+                        {getPaper.references.map((getreference, index) => {
+                          return (
+                            <div className="reference-content">
                               {index + 1} &nbsp;&nbsp;&nbsp;&nbsp;{getreference}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          }
-        })}
-      {!stream &&
-        eceSyllabus.map((syllabus, index) => {
-          if (syllabus.semester === props.semester) {
-            return (
-              <div className="semester-content">
-                <div className="syllabus-heading1"> Semester : {syllabus.semester}</div>
-                {syllabus.papers.map((getPaper) => {
-                  return (
-                    <div className="papers-content">
-                      <div className="syllabus-heading2">
-                        Paper:{getPaper.paper}: &nbsp;&nbsp;
-                        {getPaper.paper_title}
-                      </div>
-                      {getPaper.common ? (
-                        <div className="syllabus-heading4">(Common to both CSE & ECE)</div>
-                      ) : (
-                        <div className="syllabus-heading4">(Only for ECE)</div>
-                      )}
-                      {getPaper.units.map((getUnit, index) => {
-                        return (
-                            <div className="units-content">
-                              <div className="syllabus-heading3">
-                                {getUnit.unit}:&nbsp;&nbsp; {getUnit.unit_title}
-                              </div>
-                              {getUnit.unit_description.map(
-                                (description, index) => {
-                                  return (
-                                    <div className="syllabus-heading5">
-                                      <p> {description} </p>
-                                    </div>
-                                  );
-                                }
-                              )}
-                              {/* <p>{getUnit.unit_description}</p> */}
                             </div>
-                        );
-                      })}
-                      <div className="reference-heading">References:</div>
-                      {getPaper.references.map((getreference, index) => {
-                        return (
-                          <div className="reference-content">
-                              {index + 1} &nbsp;&nbsp;&nbsp;&nbsp;{getreference}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  );
-                })}
-              </div>
-            );
-          }
-        })}
-        </Scrollbars>
+                          );
+                        })}
+                        {syllabus.papers.length !== (index + 1) && (
+                          <div className="pagebreak" />
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            }
+          })}
+      </Scrollbars>
     </div>
   );
 };
