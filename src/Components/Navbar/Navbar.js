@@ -17,7 +17,7 @@ function Navbar() {
   };
 
   const changeNavBlack = () => {
-    if (window.scrollY >= 120 * (window.innerHeight / 100)) {
+    if (window.scrollY >= 105 * (window.innerHeight / 100)) {
       setNavblack(true);
     } else {
       setNavblack(false);
