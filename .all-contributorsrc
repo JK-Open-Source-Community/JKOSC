@@ -58,6 +58,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "practice404",
+      "name": "Swayam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74960567?v=4",
+      "profile": "https://github.com/practice404",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
