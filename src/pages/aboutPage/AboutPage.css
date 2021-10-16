@@ -63,6 +63,7 @@
     display: flex;
     flex-direction: column;
     margin:5%;
+    margin-bottom: 1%;
     /* border:2px solid red; */
 
 }
@@ -215,4 +216,101 @@
     font-weight: 400;
     color:#36494e;
     margin-bottom: 1%;
+}
+
+.open-source-moto{
+    /* margin-top:1%; */
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.open-source-quote{
+    font-size: 20px;
+    font-weight: 400;
+    color:#36494e;
+    margin-bottom: 1%;
+}
+
+.open-source-para{
+    margin-top: 3%;
+    text-align: justify;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.open-source-lines{
+    margin-bottom: 2%;
+    font-size: 120%;
+    font-weight: 400;
+    color: #051424;
+}
+
+.ul-statement-lines{
+    margin-top:-1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 120%;
+    font-weight: 400;
+    color: #051424;
+}
+
+.community-line{
+    margin-bottom: 1%;
+}
+
+.open-source-lines:nth-child(5) {
+    font-weight: 500;
+}
+
+.jkosc-logo{
+    /* width:10%; */
+    margin-bottom:5%;
+    
+}
+
+.intro-logo{
+    width:70%;
+    /* border: solid 5px red; */
+    border-radius: 30px;
+}
+
+.logo-visit-github{
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px black; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    background-color: rgb(5,5,5);
+    justify-content: space-around;
+}
+
+.visit-jkosc-logo{
+    width:18%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.visit-git-statement{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.visit-on-github{
+    font-size: 250%;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    padding:2%;
+    
 }
