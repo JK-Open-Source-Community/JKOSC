@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BannerBottom from "../../Components/banner-bottom/BannerBottom";
 import "./Incept.css";
 import JkoscLogo from "../../assets/jkosc-logo.png";
@@ -10,8 +10,17 @@ const Incept = () => {
 
   const [userSyllabus,setUserSyllabus] = useState(true);
 
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
+  const myRef = useRef(null);
+  const scrollTop = async () => scrollToRef(myRef);
+
+  useEffect(() => {
+    scrollTop();
+  },[]);
+
   return (
-    <div className="incept">
+    <div ref={myRef} className="incept">
       <div className="banner2">
         <div className="incept-text">
           <img className="incept-jkoscLogo" src={JkoscLogo} alt="jkosc logo" />

@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BannerBottom from "../../Components/banner-bottom/BannerBottom";
 import "./Alumni.css";
 
 function Alumni() {
+
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
+  const myRef = useRef(null);
+  const scrollTop = async () => scrollToRef(myRef);
+
+  useEffect(() => {
+    scrollTop();
+  },[]);
+
   return (
-    <div className="alumni">
+    <div ref={myRef} className="alumni">
       <div className="banner5">
         <BannerBottom />
       </div>
