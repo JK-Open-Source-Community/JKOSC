@@ -15,6 +15,7 @@ import AboutPage from "./pages/aboutPage/AboutPage";
 import AlumniPage from "./pages/ourAlumni/Alumni";
 import Sidebar from "./Components/Navbar/Sidebar";
 import Topbar from "./Components/Navbar/Topbar";
+import { BrowserView, MobileView, isBrowser, isMobile, } from "react-device-detect";
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -30,9 +31,13 @@ function App() {
   );
   return (
     <Router>
+      <BrowserView><Navbar /></BrowserView>
+      <MobileView>
+        <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+        <Topbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+      </MobileView>
       {/* <Navbar /> */}
-      <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />
-      <Topbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+
       <div className="App">
         <main>{routes}</main>
       </div>
