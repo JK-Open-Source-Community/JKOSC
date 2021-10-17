@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BannerBottom from "../../Components/banner-bottom/BannerBottom";
 import "./BloomUp.css";
 import JkoscLogo from "../../assets/jkosc-logo.png";
 
 function BloomUp() {
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
+  const myRef = useRef(null);
+  const scrollTop = async () => scrollToRef(myRef);
+
+  useEffect(() => {
+    scrollTop();
+  },[]);
+
   return (
-    <div className="bloom">
+    <div ref={myRef} className="bloom">
       <div className="banner3">
         <div className="bloom-text">
         <img className="bloom-jkoscLogo" src={JkoscLogo} alt="jkosc logo" />

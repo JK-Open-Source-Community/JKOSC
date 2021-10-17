@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./HomePage.css";
 
 
 function HomePage() {
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
+  const myRef = useRef(null);
+  const scrollTop = async () => scrollToRef(myRef);
+
+  useEffect(() => {
+    scrollTop();
+  },[]);
 
   return (
-    <div className="home">
+    <div ref={myRef} className="home">
       
       <div className="banner"></div>
         <div class="wrapper">

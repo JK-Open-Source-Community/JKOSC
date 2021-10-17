@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import BannerBottom from "../../Components/banner-bottom/BannerBottom";
 import "./AboutPage.css";
 import JkoscLogo from "../../assets/jkosc-logo.png";
@@ -14,6 +14,14 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
 function AboutPage() {
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
+  const myRef = useRef(null);
+  const scrollTop = async () => scrollToRef(myRef);
+
+  useEffect(() => {
+    scrollTop();
+  },[]);
 
   const markdown = `
 
@@ -21,7 +29,7 @@ function AboutPage() {
 
 
   return (
-    <div className="about">
+    <div ref={myRef} className="about">
       <div className="banner4">
         <div className="about-banner-text">
           <div className="about-text">
