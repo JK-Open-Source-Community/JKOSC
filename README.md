@@ -1,7 +1,12 @@
 ![JKOSC gif](intro_logo.gif)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+<!-- BADGES:START -->
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+[![GitHub forks](https://img.shields.io/github/forks/JK-Open-Source-Community/JKOSC?style=social)](https://github.com/JK-Open-Source-Community/JKOSC/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/JK-Open-Source-Community/JKOSC?style=social)](https://github.com/JK-Open-Source-Community/JKOSC/stargazers)
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- BADGES:END -->
+
 # JKOSC - JK Open Source Community 
 A community of developers run by the students of JK Institute of Applied Physics and Technology. 
 
