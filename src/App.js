@@ -19,6 +19,15 @@ import { BrowserView, MobileView, isBrowser, isMobile, } from "react-device-dete
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false);
+  const [navFullBar, setnavFullBar] = useState(true);
+  const changenavFullBar = () => {
+    if (window.scrollY >= 105 * (window.innerHeight / 100)) {
+      setnavFullBar(false);
+    } else {
+      setnavFullBar(true);
+    }
+  };
+  window.addEventListener("scroll", changenavFullBar);
   let routes;
   routes = (
     <Switch>
@@ -31,7 +40,22 @@ function App() {
   );
   return (
     <Router>
-      <BrowserView><Navbar /></BrowserView>
+      <BrowserView>
+        {
+          navFullBar ?
+            (
+              <Navbar />
+            )
+            :
+            (
+              <div className="blend-soft">
+                <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+                <Topbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
+              </div>
+            )
+        }
+
+      </BrowserView>
       <MobileView>
         <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />
         <Topbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
