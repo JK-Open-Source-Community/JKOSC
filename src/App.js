@@ -48,10 +48,10 @@ function App() {
             )
             :
             (
-              <div className="blend-soft">
+              <React.Fragment>
                 <Sidebar openMenu={openMenu} setOpenMenu={setOpenMenu} />
                 <Topbar openMenu={openMenu} setOpenMenu={setOpenMenu} />
-              </div>
+              </React.Fragment>
             )
         }
 
