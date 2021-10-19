@@ -50,6 +50,22 @@
     width: 80px;
     background-blend-mode: soft-light !important;
   }
+
+  .image1{
+    opacity:0%;
+    width: 80px;
+    background-blend-mode: soft-light !important;
+  }
+
+  .image2{
+    width: 60%;
+    background-blend-mode: soft-light !important;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+  }
+
   .header ul {
     position: relative;
     display: flex;

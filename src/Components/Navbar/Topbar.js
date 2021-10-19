@@ -31,9 +31,9 @@ function Topbar({ openMenu, setOpenMenu }) {
         <div className="left">
           <a className="logo">
             {navblack ? (
-              <img className="image" src={imageblack} />
+              <img className="image1" src={imageblack} />
             ) : (
-              <img className="image" src={imagered} />
+              <img className="image1" src={imagered} />
             )}
           </a>
         </div>
