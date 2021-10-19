@@ -12,7 +12,6 @@ A community of developers run by the students of JK Institute of Applied Physics
 
 ### Visit our WebSite
 - https://jkopenwork.web.app/
-- https://jkosc.vercel.app/
 
 ## Community Statement
 We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background. We acknowledge that not everyone has the time, financial means, or capacity to actively participate, but we recognize and encourage the involvement of all kinds. We facilitate and foster access and empowerment. We are all learners.
