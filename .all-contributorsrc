@@ -68,6 +68,17 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "1xlblaze",
+      "name": "Mayank saxena",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51388559?v=4",
+      "profile": "https://github.com/1xlblaze",
+      "contributions": [
+        "bug",
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
